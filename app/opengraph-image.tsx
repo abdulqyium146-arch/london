@@ -5,7 +5,14 @@ export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 export const alt = `${BUSINESS.name} — Professional Locksmith in Dulwich, South London`;
 
-// Sitewide default OG image used when pages don't declare their own
+/*
+  satori rules (enforced by @vercel/og):
+  - Every <div> with 2+ children needs display:"flex" explicitly
+  - No <br/> — use flex column with separate spans instead
+  - No Unicode characters that require dynamic font download (e.g. ★ U+2605)
+  - SVG attributes must be camelCase (strokeWidth, strokeLinecap, etc.)
+  - No position:absolute unless inside a position:relative flex parent
+*/
 export default function OgImage() {
   return new ImageResponse(
     (
@@ -17,87 +24,125 @@ export default function OgImage() {
           display: "flex",
           flexDirection: "column",
           justifyContent: "space-between",
-          padding: "64px 72px",
+          padding: "60px 72px",
           fontFamily: "sans-serif",
-          position: "relative",
         }}
       >
-        {/* Gold accent bar top-left */}
-        <div
-          style={{
-            position: "absolute",
-            top: 0,
-            left: 0,
-            width: "6px",
-            height: "100%",
-            background: "#C9A84C",
-          }}
-        />
-
-        {/* Logo mark + brand */}
+        {/* Brand row */}
         <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
-          {/* Icon badge */}
+          {/* Lock icon mark */}
           <div
             style={{
-              width: "72px",
-              height: "72px",
+              width: "68px",
+              height: "68px",
               background: "#C9A84C",
               borderRadius: "16px",
               display: "flex",
+              flexDirection: "column",
               alignItems: "center",
               justifyContent: "center",
+              gap: "0px",
             }}
           >
-            <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
-              <rect x="3" y="12" width="18" height="10" rx="2.5" fill="#0F172A" />
-              <path
-                d="M7 12V8.5a5 5 0 0 1 10 0V12"
-                fill="none"
-                stroke="#0F172A"
-                stroke-width="2.5"
-                stroke-linecap="round"
+            {/* Shackle */}
+            <div
+              style={{
+                width: "22px",
+                height: "14px",
+                border: "4px solid #0F172A",
+                borderBottom: "none",
+                borderRadius: "12px 12px 0 0",
+                display: "flex",
+              }}
+            />
+            {/* Lock body */}
+            <div
+              style={{
+                width: "34px",
+                height: "22px",
+                background: "#0F172A",
+                borderRadius: "5px",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <div
+                style={{
+                  width: "7px",
+                  height: "7px",
+                  background: "#C9A84C",
+                  borderRadius: "50%",
+                  display: "flex",
+                }}
               />
-              <circle cx="12" cy="17" r="1.5" fill="#C9A84C" />
-            </svg>
+            </div>
           </div>
-          <div style={{ display: "flex", flexDirection: "column" }}>
-            <span style={{ color: "#FFFFFF", fontSize: "28px", fontWeight: "800", letterSpacing: "-0.5px" }}>
+
+          {/* Brand text */}
+          <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
+            <span
+              style={{
+                color: "#FFFFFF",
+                fontSize: "30px",
+                fontWeight: "800",
+                letterSpacing: "-0.5px",
+              }}
+            >
               TrustLock
             </span>
-            <span style={{ color: "#94A3B8", fontSize: "14px", fontWeight: "500", letterSpacing: "3px", textTransform: "uppercase" }}>
-              Locksmith Dulwich
+            <span
+              style={{
+                color: "#94A3B8",
+                fontSize: "13px",
+                fontWeight: "500",
+                letterSpacing: "3px",
+              }}
+            >
+              LOCKSMITH DULWICH
             </span>
           </div>
         </div>
 
-        {/* Headline */}
-        <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
-          <div
-            style={{
-              color: "#FFFFFF",
-              fontSize: "58px",
-              fontWeight: "900",
-              letterSpacing: "-1.5px",
-              lineHeight: "1.1",
-            }}
-          >
-            Professional Locksmith
-            <br />
-            <span style={{ color: "#C9A84C" }}>in Dulwich</span>
+        {/* Main headline — two separate spans in a flex column, no <br/> */}
+        <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "0px" }}>
+            <span
+              style={{
+                color: "#FFFFFF",
+                fontSize: "62px",
+                fontWeight: "900",
+                letterSpacing: "-2px",
+                lineHeight: "1.05",
+              }}
+            >
+              Professional Locksmith
+            </span>
+            <span
+              style={{
+                color: "#C9A84C",
+                fontSize: "62px",
+                fontWeight: "900",
+                letterSpacing: "-2px",
+                lineHeight: "1.05",
+              }}
+            >
+              in Dulwich
+            </span>
           </div>
-          <div
+          <span
             style={{
               color: "#94A3B8",
-              fontSize: "24px",
+              fontSize: "22px",
               fontWeight: "400",
-              lineHeight: "1.4",
+              marginTop: "8px",
             }}
           >
             Emergency lockouts · Lock changes · UPVC repairs · South London
-          </div>
+          </span>
         </div>
 
-        {/* Bottom bar — trust signals */}
+        {/* Trust bar — avoid ★ (U+2605) which triggers dynamic font 400 error */}
         <div
           style={{
             display: "flex",
@@ -108,19 +153,32 @@ export default function OgImage() {
           }}
         >
           {[
-            { label: "Response Time", value: "30 min avg" },
-            { label: "Rating", value: "4.9 ★★★★★" },
-            { label: "Phone", value: BUSINESS.phone },
-            { label: "Hours", value: "9am–8pm Daily" },
+            { label: "RESPONSE TIME", value: "30 min avg" },
+            { label: "RATING", value: "4.9 / 5.0" },
+            { label: "PHONE", value: BUSINESS.phone },
+            { label: "HOURS", value: "9am-8pm Daily" },
           ].map((item) => (
             <div
               key={item.label}
-              style={{ display: "flex", flexDirection: "column", gap: "4px" }}
+              style={{ display: "flex", flexDirection: "column", gap: "5px" }}
             >
-              <span style={{ color: "#64748B", fontSize: "13px", fontWeight: "600", textTransform: "uppercase", letterSpacing: "1.5px" }}>
+              <span
+                style={{
+                  color: "#64748B",
+                  fontSize: "12px",
+                  fontWeight: "700",
+                  letterSpacing: "1.5px",
+                }}
+              >
                 {item.label}
               </span>
-              <span style={{ color: "#FFFFFF", fontSize: "20px", fontWeight: "700" }}>
+              <span
+                style={{
+                  color: "#FFFFFF",
+                  fontSize: "22px",
+                  fontWeight: "700",
+                }}
+              >
                 {item.value}
               </span>
             </div>

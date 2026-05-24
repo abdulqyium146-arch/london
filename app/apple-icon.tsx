@@ -3,7 +3,7 @@ import { ImageResponse } from "next/og";
 export const size = { width: 180, height: 180 };
 export const contentType = "image/png";
 
-// Apple requires 180×180 PNG with rounded corners applied by iOS itself
+// SVG attributes must be camelCase in satori (strokeWidth, strokeLinecap, etc.)
 export default function AppleIcon() {
   return new ImageResponse(
     (
@@ -17,23 +17,15 @@ export default function AppleIcon() {
           justifyContent: "center",
         }}
       >
-        <svg
-          width="110"
-          height="110"
-          viewBox="0 0 24 24"
-          fill="none"
-        >
-          {/* Padlock body */}
+        <svg width="110" height="110" viewBox="0 0 24 24" fill="none">
           <rect x="3" y="12" width="18" height="10" rx="2.5" fill="#C9A84C" />
-          {/* Padlock shackle */}
           <path
             d="M7 12V8.5a5 5 0 0 1 10 0V12"
             fill="none"
             stroke="#C9A84C"
-            stroke-width="2.5"
-            stroke-linecap="round"
+            strokeWidth="2.5"
+            strokeLinecap="round"
           />
-          {/* Keyhole */}
           <circle cx="12" cy="17" r="1.5" fill="#0F172A" />
           <rect x="11.25" y="17" width="1.5" height="2.5" rx="0.4" fill="#0F172A" />
         </svg>
