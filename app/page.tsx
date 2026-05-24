@@ -19,7 +19,7 @@ import { ArrowRight, MapPin } from "lucide-react";
 
 export const metadata: Metadata = genMeta({
   title: `${BUSINESS.name} | Professional Locksmith in Dulwich — SE22`,
-  description: `TrustLock is a Dulwich-based locksmith (SE22) serving South London since 2014. Emergency lockouts from £65, anti-snap cylinders, UPVC repairs, BS3621 locks. 30-min response, 9am–8pm daily. Call ${BUSINESS.phone}.`,
+  description: `TrustLock is a Dulwich-based locksmith (SE22) serving South London since 2014. Emergency lockouts from £65, anti-snap cylinders, UPVC repairs, BS3621 locks. 30-min response, available 24/7. Call ${BUSINESS.phone}.`,
   path: "/",
   keywords: [
     "locksmith Dulwich",

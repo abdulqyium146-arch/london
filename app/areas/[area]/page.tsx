@@ -131,7 +131,7 @@ const areaContent: Record<string, { intro: string; localDetail: string; faqs: { 
     ],
   },
   "herne-hill": {
-    intro: `TrustLock serves Herne Hill and the SE24 postcode with the same fast, professional locksmith service trusted by residents across Dulwich and South London. Herne Hill sits between our home base in SE22 and Brixton, meaning our typical arrival time here is 25–35 minutes — some of our fastest for any area outside SE22 itself. Emergency lockouts, lock upgrades and UPVC repairs all covered, 9am–8pm, seven days a week.`,
+    intro: `TrustLock serves Herne Hill and the SE24 postcode with the same fast, professional locksmith service trusted by residents across Dulwich and South London. Herne Hill sits between our home base in SE22 and Brixton, meaning our typical arrival time here is 25–35 minutes — some of our fastest for any area outside SE22 itself. Emergency lockouts, lock upgrades and UPVC repairs all covered 24 hours a day, seven days a week.`,
     localDetail: `Herne Hill is characterised by densely built Victorian and Edwardian terracing along roads like Norwood Road, Railton Road, Dulwich Road and the streets surrounding Brockwell Park. These properties share many of the same lock characteristics as Dulwich's period housing — original wooden frames with euro cylinder locks that benefit enormously from an anti-snap upgrade, sash windows requiring specialist restrictors, and door frames that have often settled and shifted over a century of use. We've worked extensively in Herne Hill and know the area well enough to navigate efficiently and arrive with the right hardware for the most likely property type at the address we're attending.`,
     faqs: [
       {
@@ -149,7 +149,7 @@ const areaContent: Record<string, { intro: string; localDetail: string; faqs: { 
     ],
   },
   southwark: {
-    intro: `TrustLock provides professional locksmith services across Southwark and the SE1 postcode. From emergency lockouts near London Bridge and Borough Market to residential lock upgrades in the Victorian terraces south of the borough, we cover the full range of Southwark's diverse property types. Our typical arrival time for SE1 addresses is 35–50 minutes from our SE22 base, reflecting the distance and central London traffic. We operate 9am–8pm, seven days a week.`,
+    intro: `TrustLock provides professional locksmith services across Southwark and the SE1 postcode. From emergency lockouts near London Bridge and Borough Market to residential lock upgrades in the Victorian terraces south of the borough, we cover the full range of Southwark's diverse property types. Our typical arrival time for SE1 addresses is 35–50 minutes from our SE22 base, reflecting the distance and central London traffic. We operate 24 hours a day, seven days a week.`,
     localDetail: `Southwark encompasses one of the most varied property landscapes in Inner London — riverside apartment developments near the Thames, converted warehouse flats, Victorian and Georgian terracing in residential Southwark, and a dense commercial sector around London Bridge and Borough. The lock requirements reflect this variety: modern composite and timber doors in residential conversions, commercial-grade deadlocks and access control in business premises, and a significant proportion of older properties with original lock hardware that needs careful assessment before any work. We carry hardware for all of these contexts and provide a security assessment as standard before recommending any products.`,
     faqs: [
       {

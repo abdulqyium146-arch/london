@@ -304,7 +304,7 @@ export function ContactForm({ className, variant = "light" }: ContactFormProps) 
       </button>
 
       <p className={cn("text-xs text-center", isDark ? "text-white/40" : "text-slate-400")}>
-        We typically respond within 1 hour during opening hours.
+        We typically respond within 1 hour — available 24/7.
         By submitting this form you agree to our{" "}
         <a href="/privacy-policy" className="underline hover:text-gold-500 transition-colors">
           Privacy Policy

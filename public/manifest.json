@@ -2,7 +2,7 @@
   "id": "https://trustlocklocksmithdulwich.com/",
   "name": "TrustLock Locksmith Dulwich",
   "short_name": "TrustLock",
-  "description": "Professional locksmith services in Dulwich and South London. Emergency lockouts, lock changes, UPVC repairs. Available 9am–8pm daily.",
+  "description": "Professional locksmith services in Dulwich and South London. Emergency lockouts, lock changes, UPVC repairs. Available 24/7.",
   "start_url": "/?source=pwa",
   "scope": "/",
   "display": "standalone",

@@ -19,7 +19,7 @@ export const faqs: FAQ[] = [
     category: "General",
     question: "What are your opening hours?",
     answer:
-      "We operate 9:00am to 8:00pm every day of the week, including weekends and bank holidays. Emergency lockout calls within those hours receive a target 30-minute response across Dulwich and neighbouring SE postcodes. We don't operate outside those hours, but we'll always aim to reach you before 8pm if you call late in the day.",
+      "TrustLock is available 24 hours a day, 7 days a week — including weekends and bank holidays. Emergency lockout calls receive a target 30-minute response across Dulwich and neighbouring SE postcodes at any time of day or night.",
   },
   {
     id: "faq-3",

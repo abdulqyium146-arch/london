@@ -145,7 +145,7 @@ export default function ContactPage() {
                   Request a Free Quote
                 </h2>
                 <p className="text-slate-500 text-sm mb-6">
-                  Fill in the details below and we&apos;ll be in touch within the hour during opening hours.
+                  Fill in the details below and we&apos;ll be in touch within the hour. We&apos;re available 24/7.
                 </p>
                 <ContactForm />
               </div>

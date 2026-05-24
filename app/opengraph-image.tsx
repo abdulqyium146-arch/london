@@ -156,7 +156,7 @@ export default function OgImage() {
             { label: "RESPONSE TIME", value: "30 min avg" },
             { label: "RATING", value: "4.9 / 5.0" },
             { label: "PHONE", value: BUSINESS.phone },
-            { label: "HOURS", value: "9am-8pm Daily" },
+            { label: "HOURS", value: "24/7" },
           ].map((item) => (
             <div
               key={item.label}

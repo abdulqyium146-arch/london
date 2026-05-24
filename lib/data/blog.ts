@@ -180,7 +180,7 @@ Locksmith costs vary based on several factors: the type of work required, the ti
 
 An emergency lockout — where you're locked out of your home and need access gained — typically costs:
 
-- **Standard lockout (business hours):** £65–£100
+- **Standard lockout:** £65–£100
 - **Complex lock or specialist technique:** £100–£150
 
 These prices should include the call-out, labour and non-destructive entry. If the lock needs replacing afterwards (because it was damaged or you want to improve security), that's an additional cost.

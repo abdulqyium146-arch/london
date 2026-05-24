@@ -33,7 +33,7 @@ export const services: Service[] = [
     shortTitle: "Emergency Locksmith",
     metaTitle: "Emergency Locksmith Dulwich | 30-Min Response – TrustLock",
     metaDescription:
-      "Locked out in Dulwich or South London? TrustLock's emergency locksmiths reach most SE22 addresses within 30 minutes. Non-destructive entry, fixed price, 9am–8pm daily. Call 07984 547185.",
+      "Locked out in Dulwich or South London? TrustLock's emergency locksmiths reach most SE22 addresses within 30 minutes. Non-destructive entry, fixed price, available 24/7. Call 07984 547185.",
     headline: "Emergency Locksmith in Dulwich — Here in 30 Minutes",
     heroTagline: "Locked out? We're already on our way.",
     intro:
@@ -123,12 +123,12 @@ export const services: Service[] = [
       {
         question: "How much does an emergency locksmith cost in Dulwich?",
         answer:
-          "Emergency lockouts start from £65 during our standard hours (9am–8pm, 7 days). Lock replacement on the same visit starts from an additional £55 depending on the cylinder required. We confirm the exact price before starting.",
+          "Emergency lockouts start from £65 — 24 hours a day, 7 days a week. Lock replacement on the same visit starts from an additional £55 depending on the cylinder required. We confirm the exact price before starting.",
       },
       {
         question: "Do you operate on weekends and bank holidays?",
         answer:
-          "Yes — 9am to 8pm every day including bank holidays, at the same rates. There are no weekend surcharges.",
+          "Yes — 24 hours a day, every day including bank holidays, at the same rates. There are no night, weekend or bank holiday surcharges.",
       },
       {
         question: "Can you replace the lock on the same visit?",

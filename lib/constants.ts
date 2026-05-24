@@ -3,7 +3,7 @@ export const BUSINESS = {
   shortName: "TrustLock",
   tagline: "Dulwich's Most Trusted Locksmith",
   description:
-    "Professional emergency, residential, commercial and automotive locksmith services in Dulwich and South London. Available 7 days a week, 9am–8pm.",
+    "Professional emergency, residential, commercial and automotive locksmith services in Dulwich and South London. Available 24 hours a day, 7 days a week.",
   phone: "07984 547185",
   phoneHref: "tel:07984547185",
   email: "info@trustlocklocksmithdulwich.com",
@@ -22,11 +22,11 @@ export const BUSINESS = {
     lng: -0.0937,
   },
   hours: {
-    open: "09:00",
-    close: "20:00",
+    open: "00:00",
+    close: "23:59",
     days: "Monday – Sunday",
-    formatted: "9:00am – 8:00pm, 7 days a week",
-    shortFormatted: "9am–8pm Daily",
+    formatted: "24 hours a day, 7 days a week",
+    shortFormatted: "24/7",
   },
   website: "https://trustlocklocksmithdulwich.com",
   googleMapsUrl:
