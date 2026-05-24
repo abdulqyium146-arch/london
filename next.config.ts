@@ -1,6 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  poweredByHeader: false,
+  compress: true,
   images: {
     remotePatterns: [
       {
@@ -20,6 +22,10 @@ const nextConfig: NextConfig = {
         source: "/(.*)",
         headers: [
           {
+            key: "Strict-Transport-Security",
+            value: "max-age=63072000; includeSubDomains; preload",
+          },
+          {
             key: "X-Frame-Options",
             value: "DENY",
           },
@@ -35,6 +41,10 @@ const nextConfig: NextConfig = {
             key: "Permissions-Policy",
             value: "camera=(), microphone=(), geolocation=()",
           },
+          {
+            key: "X-DNS-Prefetch-Control",
+            value: "on",
+          },
         ],
       },
       {
@@ -46,10 +56,26 @@ const nextConfig: NextConfig = {
           },
         ],
       },
+      {
+        source: "/_next/static/(.*)",
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "public, max-age=31536000, immutable",
+          },
+        ],
+      },
     ];
   },
   async redirects() {
-    return [];
+    return [
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "www.trustlocklocksmithdulwich.com" }],
+        destination: "https://trustlocklocksmithdulwich.com/:path*",
+        permanent: true,
+      },
+    ];
   },
 };
 

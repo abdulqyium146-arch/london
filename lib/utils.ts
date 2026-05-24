@@ -42,7 +42,7 @@ export function readingTime(text: string): number {
 }
 
 export function absoluteUrl(path: string): string {
-  return `https://trustlocklocksmith.co.uk${path}`;
+  return `https://trustlocklocksmithdulwich.com${path}`;
 }
 
 export function getServiceUrl(slug: string): string {

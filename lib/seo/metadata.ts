@@ -39,6 +39,9 @@ export function generateMetadata({
       : { index: true, follow: true, googleBot: { index: true, follow: true } },
     alternates: {
       canonical: url,
+      languages: {
+        "en-GB": url,
+      },
     },
     openGraph: {
       type: "website",
@@ -63,9 +66,6 @@ export function generateMetadata({
       images: [ogImage],
       creator: "@trustlocksmith",
       site: "@trustlocksmith",
-    },
-    verification: {
-      google: "your-google-verification-code",
     },
     other: {
       "geo.region": "GB-ENG",

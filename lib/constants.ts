@@ -6,8 +6,8 @@ export const BUSINESS = {
     "Professional emergency, residential, commercial and automotive locksmith services in Dulwich and South London. Available 7 days a week, 9am–8pm.",
   phone: "07984 547185",
   phoneHref: "tel:07984547185",
-  email: "info@trustlocklocksmith.co.uk",
-  emailHref: "mailto:info@trustlocklocksmith.co.uk",
+  email: "info@trustlocklocksmithdulwich.com",
+  emailHref: "mailto:info@trustlocklocksmithdulwich.com",
   address: {
     street: "46 Grove Vale",
     city: "London",
@@ -28,7 +28,7 @@ export const BUSINESS = {
     formatted: "9:00am – 8:00pm, 7 days a week",
     shortFormatted: "9am–8pm Daily",
   },
-  website: "https://trustlocklocksmith.co.uk",
+  website: "https://trustlocklocksmithdulwich.com",
   googleMapsUrl:
     "https://maps.google.com/?q=46+Grove+Vale+London+SE22+8DY",
   socialMedia: {
@@ -49,7 +49,7 @@ export const BUSINESS = {
   },
 } as const;
 
-export const SITE_URL = "https://trustlocklocksmith.co.uk";
+export const SITE_URL = "https://trustlocklocksmithdulwich.com";
 
 export const NAVIGATION = [
   { label: "Home", href: "/" },

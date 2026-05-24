@@ -17,7 +17,7 @@ const contactSchema = {
   "@context": "https://schema.org",
   "@type": "ContactPage",
   name: "Contact TrustLock Locksmith Dulwich",
-  url: "https://trustlocklocksmith.co.uk/contact",
+  url: "https://trustlocklocksmithdulwich.com/contact",
   mainEntity: {
     "@type": "Locksmith",
     name: BUSINESS.name,
