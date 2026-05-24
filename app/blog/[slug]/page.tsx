@@ -10,6 +10,10 @@ import { SchemaScript } from "@/components/common/SchemaScript";
 import { generateMetadata as genMeta } from "@/lib/seo/metadata";
 import { formatDate } from "@/lib/utils";
 import { BUSINESS, SITE_URL } from "@/lib/constants";
+import type { ServiceSlug } from "@/lib/constants";
+import { BlogMoneyLinks } from "@/components/seo/BlogMoneyLinks";
+import { BLOG_TO_SERVICES, BLOG_TO_AREAS } from "@/lib/data/internal-links";
+import { AREAS } from "@/lib/constants";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -37,6 +41,11 @@ export default async function BlogPostPage({ params }: Props) {
   if (!post) notFound();
 
   const related = getRecentPosts(3).filter((p) => p.slug !== slug).slice(0, 3);
+  const linkedServiceSlugs = (BLOG_TO_SERVICES[slug] ?? []) as ServiceSlug[];
+  const linkedAreaSlugs = BLOG_TO_AREAS[slug] ?? [];
+  const linkedAreas = linkedAreaSlugs
+    .map((s) => AREAS.find((a) => a.slug === s))
+    .filter(Boolean) as typeof AREAS[number][];
 
   const articleSchema = {
     "@context": "https://schema.org",
@@ -196,6 +205,32 @@ export default async function BlogPostPage({ params }: Props) {
                   {BUSINESS.phone}
                 </a>
               </div>
+
+              {/* Blog → money page funnel */}
+              {linkedServiceSlugs.length > 0 && (
+                <BlogMoneyLinks serviceSlugs={linkedServiceSlugs} />
+              )}
+
+              {/* Blog → area pages (local SEO co-citation) */}
+              {linkedAreas.length > 0 && (
+                <div className="bg-white rounded-2xl border border-slate-100 p-5">
+                  <h3 className="text-xs font-bold uppercase tracking-widest text-slate-400 mb-4">
+                    Areas We Cover
+                  </h3>
+                  <ul className="space-y-2" role="list">
+                    {linkedAreas.map((area) => (
+                      <li key={area.slug}>
+                        <Link
+                          href={`/areas/${area.slug}`}
+                          className="text-sm text-slate-600 hover:text-gold-600 transition-colors"
+                        >
+                          Locksmith in {area.name} ({area.postcode})
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
             </aside>
           </div>
         </div>

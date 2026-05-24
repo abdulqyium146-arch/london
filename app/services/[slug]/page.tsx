@@ -19,6 +19,10 @@ import { SchemaScript } from "@/components/common/SchemaScript";
 import { generateServiceSchema } from "@/lib/schema/service";
 import { generateMetadata as genMeta } from "@/lib/seo/metadata";
 import { BUSINESS } from "@/lib/constants";
+import type { ServiceSlug } from "@/lib/constants";
+import { ServiceAreaLinks } from "@/components/seo/ServiceAreaLinks";
+import { TopicalCluster } from "@/components/seo/TopicalCluster";
+import { SERVICE_CLUSTERS } from "@/lib/data/internal-links";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -49,6 +53,13 @@ export default async function ServicePage({ params }: Props) {
   const relatedServices = services.filter((s) =>
     service.relatedServices.includes(s.slug)
   );
+
+  // Find which topical cluster this service belongs to for sidebar cross-links
+  const clusterEntry = Object.entries(SERVICE_CLUSTERS).find(([, slugs]) =>
+    slugs.includes(service.slug as ServiceSlug)
+  );
+  const clusterSlugs = (clusterEntry?.[1] ?? []) as ServiceSlug[];
+  const clusterLabel = clusterEntry ? clusterEntry[0].charAt(0).toUpperCase() + clusterEntry[0].slice(1) + " Services" : "Related Services";
 
   return (
     <>
@@ -266,6 +277,15 @@ export default async function ServicePage({ params }: Props) {
                 </div>
               </div>
 
+              {/* Topical cluster — semantic cross-links within service silo */}
+              {clusterSlugs.length > 1 && (
+                <TopicalCluster
+                  heading={clusterLabel}
+                  serviceSlugs={clusterSlugs}
+                  currentSlug={service.slug as ServiceSlug}
+                />
+              )}
+
               {/* Emergency scenarios */}
               <div className="bg-white rounded-2xl border border-slate-100 p-6">
                 <h3 className="font-bold text-navy-900 mb-4">Common Scenarios</h3>
@@ -319,6 +339,11 @@ export default async function ServicePage({ params }: Props) {
           </div>
         </section>
       )}
+
+      <ServiceAreaLinks
+        serviceSlug={service.slug as ServiceSlug}
+        serviceShortTitle={service.shortTitle}
+      />
 
       <CTASection
         heading={`Need ${service.shortTitle} in Dulwich?`}

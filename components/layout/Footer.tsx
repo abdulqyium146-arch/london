@@ -223,7 +223,8 @@ export function Footer() {
               {[
                 { label: "Privacy Policy", href: "/privacy-policy" },
                 { label: "Terms & Conditions", href: "/terms-and-conditions" },
-                { label: "Sitemap", href: "/sitemap.xml" },
+                { label: "Sitemap", href: "/sitemap-html" },
+                { label: "XML Sitemap", href: "/sitemap.xml" },
               ].map((link) => (
                 <li key={link.href}>
                   <Link

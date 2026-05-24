@@ -10,6 +10,8 @@ import { CTASection } from "@/components/sections/CTASection";
 import { SchemaScript } from "@/components/common/SchemaScript";
 import { services } from "@/lib/data/services";
 import { generateMetadata as genMeta } from "@/lib/seo/metadata";
+import type { AreaSlug } from "@/lib/constants";
+import { NearbyAreaLinks } from "@/components/seo/NearbyAreaLinks";
 
 interface Props {
   params: Promise<{ area: string }>;
@@ -293,22 +295,7 @@ export default async function AreaPage({ params }: Props) {
                 </Link>
               </div>
 
-              <div className="bg-white rounded-2xl border border-slate-100 p-5">
-                <h3 className="font-bold text-navy-900 mb-4">Nearby Areas</h3>
-                <ul className="space-y-2" role="list">
-                  {AREAS.filter((a) => a.slug !== areaSlug).map((a) => (
-                    <li key={a.slug}>
-                      <Link
-                        href={`/areas/${a.slug}`}
-                        className="flex items-center gap-2 text-sm text-slate-600 hover:text-gold-600 transition-colors"
-                      >
-                        <MapPin size={12} className="text-slate-300 shrink-0" aria-hidden="true" />
-                        {a.name} ({a.postcode})
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+              <NearbyAreaLinks currentSlug={areaSlug as AreaSlug} />
             </aside>
           </div>
         </div>
