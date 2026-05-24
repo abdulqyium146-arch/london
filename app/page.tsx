@@ -18,15 +18,17 @@ import Link from "next/link";
 import { ArrowRight, MapPin } from "lucide-react";
 
 export const metadata: Metadata = genMeta({
-  title: `${BUSINESS.name} | Emergency & Residential Locksmith in Dulwich`,
-  description: `${BUSINESS.name} — fast, professional locksmith services in Dulwich, East Dulwich, Peckham and South London. Emergency lockouts, lock changes, UPVC repairs. Call ${BUSINESS.phone}.`,
+  title: `${BUSINESS.name} | Professional Locksmith in Dulwich — SE22`,
+  description: `TrustLock is a Dulwich-based locksmith (SE22) serving South London since 2014. Emergency lockouts from £65, anti-snap cylinders, UPVC repairs, BS3621 locks. 30-min response, 9am–8pm daily. Call ${BUSINESS.phone}.`,
   path: "/",
   keywords: [
     "locksmith Dulwich",
     "emergency locksmith Dulwich",
-    "locksmith near me",
+    "locksmith near me SE22",
     "locksmith SE22",
     "lock change Dulwich",
+    "anti-snap lock Dulwich",
+    "UPVC lock repair SE22",
   ],
 });
 
@@ -44,7 +46,7 @@ export default function HomePage() {
       <ProcessTimeline />
       <AreasCoverage />
 
-      {/* SEO content block — AI/GEO optimised */}
+      {/* SEO content block — E-E-A-T / GEO / AEO optimised */}
       <section className="section-padding bg-white" aria-labelledby="about-content-heading">
         <div className="container max-w-4xl mx-auto">
           <div className="grid lg:grid-cols-5 gap-10 items-start">
@@ -57,31 +59,34 @@ export default function HomePage() {
                 id="about-content-heading"
                 className="text-3xl sm:text-4xl font-extrabold text-navy-900 mb-6"
               >
-                Dulwich&apos;s Professional
+                Dulwich&apos;s Local
                 <br />
-                <span className="text-gold-500">Locksmith Service</span>
+                <span className="text-gold-500">Locksmith Since 2014</span>
               </h2>
 
               <div className="space-y-4 text-slate-600 leading-relaxed">
                 <p>
-                  TrustLock has been serving homes and businesses across Dulwich and South London
-                  for over ten years. We&apos;re based in SE22, which means when you call us, we&apos;re
-                  already nearby — not driving in from another part of London.
+                  TrustLock is a locksmith service based at 46 Grove Vale, Dulwich, SE22 8DY. We&apos;ve
+                  been serving homes and businesses across SE22, SE21, SE15, SE5, SE24, SW2 and SE1
+                  since 2014 — over 2,500 jobs completed across South London, and counting.
                 </p>
                 <p>
-                  Every locksmith on our team is fully trained, DBS checked, and carries public
-                  liability insurance. We work to British Standard specifications and stock
-                  insurance-approved BS3621 locks as standard.
+                  Every engineer on our team is DBS-checked, carries £2 million public liability
+                  insurance, and is trained to work with TS007:2012-rated anti-snap cylinders,
+                  BS3621:2007+A2:2012 mortice deadlocks, and the full range of UPVC multipoint
+                  mechanisms common to South London&apos;s period and modern housing stock.
                 </p>
                 <p>
-                  Our approach is straightforward: we give you a fixed price before we start, we
-                  arrive when we say we will, and we do the job properly. No hidden charges, no
-                  pressure selling, no cutting corners on parts.
+                  Our approach hasn&apos;t changed since we started: fixed prices confirmed before we
+                  touch anything, honest advice about what you need (and what you don&apos;t), and work
+                  carried out to British Standard specification with quality parts. No call-out
+                  surprise fees, no upselling, no temporary fixes that bring you back in six months.
                 </p>
                 <p>
-                  Whether you&apos;re locked out at 7pm on a Sunday, you&apos;ve moved into a new property
-                  and want the locks changed, or your UPVC door has been playing up for months —
-                  we&apos;re the people to call.
+                  Whether you&apos;re locked out at 7:30pm on a bank holiday Sunday, you&apos;ve just moved
+                  into a Dulwich terrace and want every cylinder replaced before you unpack, or your
+                  UPVC door handle has dropped for the second time this year — call us on{" "}
+                  <a href={`tel:${BUSINESS.phone.replace(/\s/g, "")}`} className="text-gold-600 font-semibold hover:underline">{BUSINESS.phone}</a>.
                 </p>
               </div>
 
@@ -167,8 +172,8 @@ export default function HomePage() {
 
       <FAQSection
         faqs={homepageFaqs}
-        heading="Common Locksmith Questions"
-        subheading="Everything you need to know before you call — or while you're waiting for us."
+        heading="Locksmith Questions — Answered Directly"
+        subheading="The questions we hear most often, answered clearly. No filler, no hedging."
       />
 
       {/* Blog section */}
@@ -216,8 +221,8 @@ export default function HomePage() {
       )}
 
       <CTASection
-        heading="Need a Locksmith in Dulwich?"
-        subheading={`Call us on ${BUSINESS.phone} for a fast response — or send us a message and we'll be back in touch within the hour.`}
+        heading="Need a Locksmith in Dulwich or South London?"
+        subheading={`Call ${BUSINESS.phone} for a 30-minute response across SE22, SE21, SE15, SE5, SE24, SW2 and SE1 — or send a message and we'll reply within the hour. Fixed prices, no hidden fees.`}
         variant="navy"
       />
     </>

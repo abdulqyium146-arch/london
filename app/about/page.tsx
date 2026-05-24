@@ -7,36 +7,36 @@ import { CTASection } from "@/components/sections/CTASection";
 import { generateMetadata as genMeta } from "@/lib/seo/metadata";
 
 export const metadata: Metadata = genMeta({
-  title: "About TrustLock | Dulwich's Professional Locksmith Service",
+  title: "About TrustLock | Dulwich Locksmith Since 2014 — SE22",
   description:
-    "Learn about TrustLock Locksmith Dulwich — our background, values, and commitment to honest, professional locksmith services across South London.",
+    "TrustLock is a Dulwich-based locksmith (46 Grove Vale, SE22) operating since 2014. DBS-checked engineers, £2m public liability insurance, BS3621 and TS007:2012 certified work across South London.",
   path: "/about",
 });
 
 const values = [
   {
     icon: Shield,
-    title: "Honest Pricing",
+    title: "Fixed Prices, Always",
     description:
-      "We quote a fixed price before starting any work. We've never charged more than our initial quote, and we never will.",
+      "We confirm a fixed price before we start — on the phone for most standard jobs, on-site after a 2-minute assessment for complex repairs. The number we quote is the number on the invoice. We have never charged more than our quoted price.",
   },
   {
     icon: CheckCircle2,
-    title: "Quality Over Speed",
+    title: "Non-Destructive First",
     description:
-      "We aim to be fast, but never at the expense of doing the job properly. A repair done right the first time saves everyone time.",
+      "Over 90% of our lockouts are resolved without drilling. We carry professional picking tools and bypass equipment and exhaust every non-destructive option before considering anything that damages the lock. This saves you the cost of a replacement you didn't need.",
   },
   {
     icon: Users,
-    title: "Local First",
+    title: "Genuinely Local",
     description:
-      "We're a small, local business rooted in South London. We care about our reputation in this community because we live here too.",
+      "We're based at 46 Grove Vale, SE22 — which means we live in the communities we serve. Our reputation in Dulwich, East Dulwich, Peckham and Herne Hill matters to us personally. When you call us, you're calling a neighbour.",
   },
   {
     icon: Award,
-    title: "Genuine Expertise",
+    title: "Technically Trained",
     description:
-      "Every locksmith on our team is fully trained and experienced. We invest in ongoing training so we're always up to date with the latest lock technology.",
+      "Every engineer understands TS007:2012 cylinder grading, BS3621 mortice deadlock standards, UPVC multipoint mechanism identification, and the specific lock types common to South London's Victorian and Edwardian housing stock. We invest in training and tooling continuously.",
   },
 ];
 
@@ -52,8 +52,9 @@ export default function AboutPage() {
               About TrustLock
             </h1>
             <p className="text-lg text-white/70 leading-relaxed">
-              A local locksmith service built on honesty, real expertise, and a genuine commitment
-              to the South London communities we serve.
+              TrustLock is a Dulwich-based locksmith service (46 Grove Vale, SE22) operating since
+              2014. DBS-checked engineers, £2 million public liability insurance, and a consistent
+              track record across South London&apos;s residential and commercial properties.
             </p>
           </div>
         </div>
@@ -79,30 +80,32 @@ export default function AboutPage() {
 
               <div className="space-y-5 text-slate-600 leading-relaxed">
                 <p>
-                  TrustLock was founded in Dulwich with a straightforward idea: build a locksmith
-                  service that people actually trust. Not because of a slick website, but because of
-                  consistent, honest service on every job.
+                  TrustLock was founded in Dulwich in 2014 with a straightforward intention: build
+                  a locksmith service that earns trust through consistent, transparent work — not
+                  through advertising promises. We&apos;re based at 46 Grove Vale, SE22, and our
+                  engineers live and work in the same South London postcodes we serve every day.
                 </p>
                 <p>
-                  After years of working for larger locksmith companies and watching the industry
-                  give itself a poor reputation through hidden charges, overpriced locks and
-                  unnecessary drilling, we decided to do things differently.
+                  We started after spending years in the industry watching otherwise capable
+                  locksmiths undermine customer confidence through unnecessary drilling, inflated
+                  parts pricing, and pressure selling on security upgrades people didn&apos;t need. The
+                  locksmith industry has a reputation problem that isn&apos;t hard to understand — and
+                  we set out to be an exception to it.
                 </p>
                 <p>
-                  We&apos;re based in SE22. Our team works across Dulwich, East Dulwich, Peckham,
-                  Camberwell, Brixton, Herne Hill, Southwark and the wider South London area every
-                  single day. We know these streets and we know these properties.
+                  Over {BUSINESS.trustSignals.jobsCompleted} jobs later, the approach is the same:
+                  a fixed price confirmed before we start, the least invasive technique available,
+                  quality parts from Ultion, Yale, ERA, Mul-T-Lock and Avocet, and honest advice
+                  about what you genuinely need. We work to TS007:2012 and BS3621:2007+A2:2012
+                  standards and carry £2 million public liability insurance on every job.
                 </p>
                 <p>
-                  Every job we take on gets the same approach: a clear fixed price before we start,
-                  the best non-destructive technique available, proper parts from reputable
-                  manufacturers, and honest advice afterwards. No pressure selling, no exaggerated
-                  security threats, no shortcuts.
-                </p>
-                <p>
-                  That&apos;s how we&apos;ve built over {BUSINESS.trustSignals.reviewCount} five-star reviews
-                  and how we&apos;ve completed {BUSINESS.trustSignals.jobsCompleted} jobs across South
-                  London.
+                  We know Dulwich&apos;s period properties — the Victorian terraces on Croxted Road and
+                  Lordship Lane, the Edwardian semis around Dulwich Village, the purpose-built
+                  blocks across East Dulwich. We know which locks common to these properties need
+                  anti-snap upgrades, which UPVC mechanism families cover most South London doors,
+                  and how to work sensitively with older door frames that don&apos;t tolerate a heavy-
+                  handed approach. That local knowledge makes us faster, and it makes us better.
                 </p>
               </div>
             </div>
@@ -133,12 +136,12 @@ export default function AboutPage() {
                 </div>
                 <ul className="space-y-2">
                   {[
-                    "Fixed price quoted before we start",
-                    "Fully insured — every job",
-                    "Insurance-approved locks available",
-                    "No unnecessary drilling",
-                    "Receipt and documentation provided",
-                    "Honest advice, no pressure selling",
+                    "Fixed price confirmed before we touch anything",
+                    "£2m public liability insurance — every job",
+                    "TS007:2012 & BS3621:2007+A2:2012 certified work",
+                    "Non-destructive entry — drilling only as last resort",
+                    "Signed invoice and documentation for insurance",
+                    "DBS-checked engineers on every call",
                   ].map((g) => (
                     <li key={g} className="flex items-start gap-2 text-sm text-white/70">
                       <CheckCircle2

@@ -19,11 +19,11 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "anti-snap-locks-south-london-guide",
     title: "Anti-Snap Locks: The Complete Guide for South London Homeowners",
-    metaTitle: "Anti-Snap Locks Guide for South London Homes | TrustLock Blog",
+    metaTitle: "Anti-Snap Locks: TS007 Guide for South London Homes | TrustLock",
     metaDescription:
-      "Everything you need to know about anti-snap lock cylinders for your South London home. What they are, why you need one, and how to choose the right product.",
+      "Cylinder snapping causes most London burglaries. This guide explains TS007:2012 anti-snap cylinders — what they do, which brands to choose, and why correct fitting matters. From Dulwich locksmiths TrustLock.",
     excerpt:
-      "Cylinder snapping is the most common method used by burglars in London. Here's what you need to know about anti-snap locks and why upgrading is one of the best security investments you can make.",
+      "Cylinder snapping is the most common burglary entry method in London. This guide explains how TS007:2012-rated anti-snap cylinders work, which brands offer genuine protection, and what proper installation looks like.",
     category: "Home Security",
     tags: ["anti-snap", "lock security", "burglary prevention", "cylinders", "South London"],
     author: "TrustLock Team",
@@ -90,11 +90,11 @@ If you're unsure what type of cylinder you have, call us and we'll come and chec
   {
     slug: "upvc-door-wont-lock-common-causes",
     title: "UPVC Door Won't Lock? 5 Common Causes and How to Fix Them",
-    metaTitle: "UPVC Door Won't Lock: Causes & Fixes | TrustLock Dulwich",
+    metaTitle: "UPVC Door Won't Lock: 5 Causes & Fixes | TrustLock Dulwich",
     metaDescription:
-      "UPVC door refusing to lock properly? This guide covers the five most common causes and whether you need a locksmith to fix them.",
+      "UPVC door not locking properly? The most common cause is a failed gearbox — but door misalignment, corroded bolts and cylinder wear are also frequent culprits. TrustLock explains each cause and the correct fix.",
     excerpt:
-      "A UPVC door that won't lock properly is more common than you'd think — and more serious than just an annoyance. Here are the five most common causes and what to do about each one.",
+      "A UPVC door that won't lock is usually a failed gearbox, misaligned door or seized locking point. This guide explains the five most common causes, how to identify each one, and what the correct repair involves.",
     category: "Lock Maintenance",
     tags: ["UPVC", "lock repair", "door maintenance", "multipoint lock", "gearbox"],
     author: "TrustLock Team",
@@ -158,11 +158,11 @@ If your UPVC door is playing up, we're happy to come and take a look. Most repai
   {
     slug: "locksmith-costs-dulwich-guide",
     title: "How Much Does a Locksmith Cost in Dulwich? (2025 Price Guide)",
-    metaTitle: "Locksmith Costs in Dulwich 2025 | Price Guide – TrustLock",
+    metaTitle: "Locksmith Costs Dulwich 2025: Honest Price Guide | TrustLock",
     metaDescription:
-      "Transparent locksmith pricing guide for Dulwich and South London. Emergency lockouts, lock replacements, UPVC repairs and more — what to expect to pay.",
+      "How much does a locksmith cost in Dulwich in 2025? Emergency lockouts from £65. Cylinder replacement from £55. UPVC gearbox from £95. Full transparent pricing from TrustLock SE22.",
     excerpt:
-      "Wondering what a locksmith should cost in Dulwich? This honest pricing guide covers emergency lockouts, lock changes, UPVC repairs and everything in between.",
+      "An emergency lockout in Dulwich costs from £65. A cylinder replacement from £55. A UPVC gearbox from £95. Here's a transparent breakdown of what locksmith work actually costs in South London — and how to avoid rogue pricing.",
     category: "Locksmith Pricing",
     tags: ["locksmith cost", "pricing", "Dulwich", "South London", "lockout cost"],
     author: "TrustLock Team",

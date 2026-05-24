@@ -41,61 +41,129 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 const areaContent: Record<string, { intro: string; localDetail: string; faqs: { question: string; answer: string }[] }> = {
   dulwich: {
-    intro: `TrustLock is based in the heart of Dulwich — so when you call us, we're already in your neighbourhood. Whether you're locked out of a Victorian terrace on Lordship Lane, need a lock upgrade in Dulwich Village, or require an emergency response in SE21, we're typically on your doorstep within 30 minutes.`,
-    localDetail: `Dulwich is a predominantly residential area of some of London's most beautiful period properties. We understand the particular requirements of Victorian and Edwardian doors, letterboxes at lock height, and original sash windows — and carry the right hardware to work sensitively with these properties.`,
+    intro: `TrustLock is based in Dulwich — 46 Grove Vale, SE22 — which means when you call us, we're already in your neighbourhood. Our average arrival time for addresses in Dulwich Village (SE21) and the surrounding SE22 streets is 20–30 minutes. Whether you're locked out of a Victorian terrace on Croxted Road, need an anti-snap cylinder upgrade in Dulwich Village, or have a UPVC door that won't close on Gallery Road, we carry the parts and the expertise to resolve it cleanly on the same visit.`,
+    localDetail: `Dulwich is one of South London's most distinctive residential areas — wide, tree-lined streets, conservation area restrictions, and a high proportion of Victorian and Edwardian terraces with original or early-modified wooden doors. These properties present specific lock requirements. Door frames have often settled over 120+ years, creating misalignments that affect how multipoint locks engage. Original front doors frequently have letter boxes at lock height, which creates a vulnerability addressed by specific letter-box-height reinforcement products we carry. We've worked in Dulwich long enough to know which property types have which characteristics — and we bring the right hardware the first time.`,
     faqs: [
-      { question: "Which parts of Dulwich do you cover?", answer: "We cover all of Dulwich including Dulwich Village, West Dulwich (SE21), and East Dulwich (SE22). We also cover nearby areas including Herne Hill, Peckham and Camberwell." },
-      { question: "How quickly can you reach me in Dulwich?", answer: "Being based in Dulwich, we typically arrive within 20–30 minutes for most addresses in the SE21 and SE22 postcodes." },
-      { question: "Do you work near Dulwich Park and the Village?", answer: "Yes — Dulwich Village and the surrounding streets are one of our most common service areas. We know the area well." },
+      {
+        question: "Which parts of Dulwich does TrustLock cover?",
+        answer: "We cover all of Dulwich — Dulwich Village (SE21), West Dulwich (SE21), and the broader SE22 postcode. Our base at 46 Grove Vale, SE22 means we reach most Dulwich addresses within 20–30 minutes. We also cover adjoining areas including Herne Hill, East Dulwich and Camberwell.",
+      },
+      {
+        question: "How quickly can you reach me in Dulwich?",
+        answer: "TrustLock is based in Dulwich (SE22), so our typical arrival time for SE21 and SE22 addresses is 20–30 minutes from the time you call. This is our fastest-response area across all the postcodes we cover.",
+      },
+      {
+        question: "Do you install anti-snap locks in Dulwich Village's period properties?",
+        answer: "Yes. We regularly upgrade Dulwich Village properties from standard euro cylinders to TS007:2012-rated anti-snap cylinders (Ultion, Yale Platinum, ABS Master). We measure door thickness carefully to ensure flush cylinder fitting — which is essential for anti-snap protection to work correctly on older, thicker period doors.",
+      },
     ],
   },
   "east-dulwich": {
-    intro: `East Dulwich is one of our most frequently served areas. We respond to lockouts, lock repairs and security upgrades across the SE22 postcode regularly — and because we're based locally, our average response time here is among the fastest in South London.`,
-    localDetail: `From Lordship Lane to Peckham Rye, East Dulwich is home to a mix of Victorian terraces, converted flats and newer builds. Each presents its own lock requirements. We carry a comprehensive stock of euro cylinders, UPVC mechanisms and British Standard locks to handle the full range.`,
+    intro: `East Dulwich (SE22) is our most frequently served area by call volume. Because TrustLock is based on Grove Vale in SE22, our average response time to East Dulwich addresses is consistently under 30 minutes. We respond to lockouts, UPVC repairs, anti-snap upgrades and lock installations across the full SE22 postcode — from Lordship Lane and Peckham Rye to Goose Green and the streets around East Dulwich station.`,
+    localDetail: `East Dulwich has a diverse housing mix that covers almost every lock type we work with: Victorian terraces on roads like Underhill Road and Ondine Road with original timber frames; 1960s and 70s purpose-built flats with aluminium-framed doors; 1990s and 2000s new-build properties with UPVC or composite doors; and converted period properties with a mix of door types across individual floors. We carry the appropriate cylinders, mechanisms and hardware for all of them. UPVC multipoint failures and anti-snap cylinder upgrades are our two most common East Dulwich jobs.`,
     faqs: [
-      { question: "Do you cover the SE22 postcode?", answer: "Yes, SE22 (East Dulwich) is one of our primary service areas. We're typically able to reach most SE22 addresses within 30 minutes." },
-      { question: "Can you help if my UPVC door won't lock in East Dulwich?", answer: "Absolutely. UPVC door lock failures are one of the most common calls we receive across East Dulwich. We carry replacement multipoint mechanisms and gearboxes to resolve most issues on the same visit." },
-      { question: "Do you cover Lordship Lane?", answer: "Yes, including all residential streets on and around Lordship Lane and the wider East Dulwich area." },
+      {
+        question: "Does TrustLock cover the full SE22 postcode?",
+        answer: "Yes. SE22 (East Dulwich) is our primary service area and our most frequently attended postcode. We reach most SE22 addresses within 25–30 minutes and carry a comprehensive stock of hardware for the property types common to this area.",
+      },
+      {
+        question: "My UPVC door won't lock properly in East Dulwich — can you help?",
+        answer: "Yes. UPVC multipoint failures — dropped handles, bolts that won't extend, mechanisms that require excessive force — are our most common repair call in East Dulwich. We carry ERA, Fullex and Avocet gearboxes and mechanisms to resolve most faults on a single same-day visit.",
+      },
+      {
+        question: "Do you cover Lordship Lane and the surrounding streets?",
+        answer: "Yes — Lordship Lane and all residential streets on either side (Ondine Road, Underhill Road, Elsie Road, Pellatt Road, Barry Road and more) are well within our service area. We're familiar with the property types throughout this part of SE22.",
+      },
     ],
   },
   peckham: {
-    intro: `From the residential streets around Peckham Rye to the busy thoroughfares near Rye Lane, we provide professional locksmith services throughout Peckham and the SE15 postcode. Emergency lockouts, residential security upgrades and commercial locksmith work all covered.`,
-    localDetail: `Peckham has a diverse mix of housing — from Victorian terraces to modern apartment blocks. Each type has different lock requirements, and our locksmiths carry the appropriate hardware for all of them. We regularly serve the area around Peckham Rye Park, Bellenden Road and the surrounding streets.`,
+    intro: `TrustLock provides locksmith services throughout Peckham and the SE15 postcode — from the residential streets around Peckham Rye and Bellenden Road to the commercial properties on Rye Lane. Emergency lockouts, residential security upgrades, UPVC repairs and commercial locksmith work are all available from the same local, insured service. Our typical arrival time for SE15 addresses is 30–40 minutes from your call.`,
+    localDetail: `Peckham's housing stock is varied and dense. Victorian terraces around Bellenden Road and Lyndhurst Way sit alongside purpose-built 1970s blocks on larger estates, modern flat conversions throughout the area, and an active commercial district along Rye Lane and Peckham High Street. Each property type has different lock requirements — older terrace doors often need the same anti-snap upgrades as Dulwich properties, while flat entrance doors on managed estates frequently have specific cylinder types specified by the managing agent. We're experienced with all of these and navigate the area efficiently, which keeps our response times competitive even for the southern edges of SE15.`,
     faqs: [
-      { question: "Do you cover SE15 (Peckham)?", answer: "Yes. Peckham (SE15) is within our standard service area. We aim to be with you within 30–40 minutes from the time you call." },
-      { question: "Can you help with a commercial lockout in Peckham?", answer: "Yes. Commercial lockouts are a priority service. We attend business premises across Peckham and surrounding areas and aim to respond quickly to minimise disruption to your operations." },
+      {
+        question: "Does TrustLock cover Peckham (SE15)?",
+        answer: "Yes. Peckham (SE15) is within our standard service area. Our typical arrival time is 30–40 minutes from the time you call, depending on exact location within SE15 and current traffic.",
+      },
+      {
+        question: "Can you respond to a commercial lockout in Peckham?",
+        answer: "Yes. Commercial lockouts on Rye Lane, Peckham High Street and surrounding business streets are treated as priority calls. We aim to reach commercial premises as quickly as possible to minimise disruption to your operations.",
+      },
+      {
+        question: "Do you fit anti-snap locks in Peckham?",
+        answer: "Yes. Anti-snap cylinder upgrades (TS007:2012-rated) are one of our most requested services in the SE15 postcode. We carry Ultion, Yale Platinum and ABS Master cylinders in all common sizes and can fit them the same day you call.",
+      },
     ],
   },
   camberwell: {
-    intro: `Serving Camberwell and the SE5 postcode with fast, professional locksmith services. Whether you need an emergency lockout response near Burgess Park or a full residential security review in one of Camberwell's period properties, TrustLock provides reliable, fairly priced service.`,
-    localDetail: `Camberwell has some of South London's most characterful Victorian housing stock. We have extensive experience with the older door furniture and lock mechanisms found in these properties, and can advise sensitively on modern security upgrades that respect the character of your home.`,
+    intro: `TrustLock covers all of Camberwell and the SE5 postcode with fast, professional locksmith services. Emergency lockouts near Burgess Park, lock upgrades on the characterful streets around Camberwell Grove, UPVC repairs in newer builds closer to Camberwell Green — we serve the full range of properties across SE5. Our typical arrival time from our Dulwich base is 25–35 minutes.`,
+    localDetail: `Camberwell has some of the most architecturally rich housing in South London — Georgian and early Victorian properties on Camberwell Grove and Denmark Hill, dense mid-Victorian terracing throughout the SE5 grid streets, and substantial purpose-built blocks from the 1960s and 1970s. The older properties frequently have original or early-modified mortice cases, often fitted with non-standard cylinders that require careful measurement before replacement. The purpose-built blocks often have communal entrance systems alongside individual flat door locks. We carry the hardware and knowledge for both contexts and approach every assessment without assumptions about what we'll find.`,
     faqs: [
-      { question: "How far is TrustLock from Camberwell?", answer: "We're based in SE22, which means Camberwell (SE5) is typically a 15–25 minute drive. Our average arrival time across Camberwell is under 35 minutes." },
-      { question: "Do you do lock upgrades in Camberwell?", answer: "Yes. We carry out lock upgrades — including anti-snap cylinder installation and BS3621 lock fitting — regularly across Camberwell and the SE5 postcode." },
+      {
+        question: "How quickly can TrustLock reach Camberwell?",
+        answer: "From our base at 46 Grove Vale in SE22, Camberwell (SE5) is typically a 15–25 minute drive. Our average arrival time for SE5 addresses is under 35 minutes.",
+      },
+      {
+        question: "Do you install BS3621 locks in Camberwell?",
+        answer: "Yes. We fit BS3621:2007+A2:2012 five-lever mortice deadlocks regularly across SE5. We carry Yale, ERA and Chubb BS3621 locks and can advise on the correct backset for your door type before purchasing anything.",
+      },
+      {
+        question: "Can you help with a lockout at a Camberwell flat or apartment?",
+        answer: "Yes. We handle flat entrance door lockouts — including communal entrance locks and individual flat doors — regularly across Camberwell. We bring the appropriate tools and can replace communal lock cylinders where we have verification that the caller is a resident.",
+      },
     ],
   },
   brixton: {
-    intro: `TrustLock provides locksmith services throughout Brixton and the SW2 / SW9 area. Fast emergency response, residential lock changes, UPVC repairs and commercial locksmith work — all carried out by experienced, insured professionals.`,
-    localDetail: `Brixton's lively urban character makes security particularly important. We regularly work in the residential streets around Brixton Market, Coldharbour Lane and the broader Lambeth area. Our anti-snap lock upgrades are especially popular with homeowners in this area.`,
+    intro: `TrustLock provides locksmith services across Brixton and the SW2 and SW9 postcodes. Emergency lockouts, residential anti-snap upgrades, break-in repairs and UPVC door lock repairs — all carried out by DBS-checked, fully insured engineers. Our typical arrival time for Brixton addresses is 35–45 minutes from our SE22 base. We serve the streets around Brixton Market, Coldharbour Lane, Acre Lane and the residential areas behind Brixton Hill.`,
+    localDetail: `Brixton's residential streets encompass a wide range of property types and therefore a wide range of lock types. Victorian and Edwardian terraces on roads like Effra Road, Tulse Hill and Leeson Road require the same anti-snap cylinder focus as Dulwich's period properties. The area has also seen substantial new-build development alongside older converted stock, meaning modern composite doors with multipoint mechanisms sit alongside original timber doors on the same street. Anti-snap cylinder upgrades are particularly popular with Brixton homeowners, as the cylinder snapping attack method is responsible for a significant proportion of burglary entries in SW2 and SW9.`,
     faqs: [
-      { question: "Do you cover Brixton?", answer: "Yes, Brixton (SW2/SW9) is within our regular service area. We typically arrive within 35–45 minutes." },
-      { question: "Can you change my locks after a break-in in Brixton?", answer: "Yes. Break-in repair and lock replacement is one of our most common services. We respond quickly and can provide documentation for your insurance claim." },
+      {
+        question: "Does TrustLock cover Brixton (SW2/SW9)?",
+        answer: "Yes. Brixton (SW2 and SW9) is within our regular service area. Our typical arrival time is 35–45 minutes from our Dulwich base, depending on traffic and exact location.",
+      },
+      {
+        question: "Can you replace my locks after a break-in in Brixton?",
+        answer: "Yes. Post-break-in lock replacement and security assessment is one of our most common services in SW2 and SW9. We replace compromised cylinders with TS007 anti-snap variants, reinforce strike plates with box keeps, and provide a signed written report for your home insurance claim.",
+      },
+      {
+        question: "What anti-snap cylinders do you recommend for Brixton properties?",
+        answer: "For most Brixton properties with euro cylinder doors, we recommend the Ultion three-star (TS007:2012) or Yale Platinum as the primary upgrade. Both are independently tested to the highest cylinder security rating available and cost from £55 fitted.",
+      },
     ],
   },
   "herne-hill": {
-    intro: `Covering Herne Hill and the SE24 postcode with fast, professional locksmith services. Emergency lockouts, lock upgrades and UPVC repairs — handled by the same local locksmith service trusted by residents across Dulwich and South London.`,
-    localDetail: `Herne Hill sits between Dulwich and Brixton, and its beautiful Victorian streets are a regular part of our service area. Brockwell Park and the surrounding roads are well within our coverage, and we know the area well.`,
+    intro: `TrustLock serves Herne Hill and the SE24 postcode with the same fast, professional locksmith service trusted by residents across Dulwich and South London. Herne Hill sits between our home base in SE22 and Brixton, meaning our typical arrival time here is 25–35 minutes — some of our fastest for any area outside SE22 itself. Emergency lockouts, lock upgrades and UPVC repairs all covered, 9am–8pm, seven days a week.`,
+    localDetail: `Herne Hill is characterised by densely built Victorian and Edwardian terracing along roads like Norwood Road, Railton Road, Dulwich Road and the streets surrounding Brockwell Park. These properties share many of the same lock characteristics as Dulwich's period housing — original wooden frames with euro cylinder locks that benefit enormously from an anti-snap upgrade, sash windows requiring specialist restrictors, and door frames that have often settled and shifted over a century of use. We've worked extensively in Herne Hill and know the area well enough to navigate efficiently and arrive with the right hardware for the most likely property type at the address we're attending.`,
     faqs: [
-      { question: "Do you cover Herne Hill (SE24)?", answer: "Yes, SE24 is firmly within our service area. We typically arrive within 30–35 minutes in Herne Hill." },
-      { question: "Do you work near Brockwell Park?", answer: "Yes, including all residential streets around Brockwell Park and the wider Herne Hill area." },
+      {
+        question: "Does TrustLock cover Herne Hill (SE24)?",
+        answer: "Yes. SE24 is a regular service area for us. Our typical arrival time is 25–35 minutes from our Dulwich (SE22) base, making Herne Hill one of our faster-response areas.",
+      },
+      {
+        question: "Do you work near Brockwell Park?",
+        answer: "Yes. The residential streets surrounding Brockwell Park — including Tulse Hill, Norwood Road, Dulwich Road and Effra Road — are all within our Herne Hill coverage area.",
+      },
+      {
+        question: "Can you fit anti-snap locks on Victorian terrace doors in Herne Hill?",
+        answer: "Yes, and it's one of our most frequent jobs in SE24. We measure door thickness carefully to size cylinders precisely — critical for anti-snap protection — and carry Ultion, Yale Platinum and ABS Master cylinders in all standard sizes for period door frames.",
+      },
     ],
   },
   southwark: {
-    intro: `Professional locksmith services throughout Southwark and the SE1 postcode. From emergency lockouts near London Bridge to residential security upgrades across the borough — TrustLock provides fast, insured locksmith services across all of Southwark.`,
-    localDetail: `Southwark encompasses a broad range of property types from riverside developments near the Thames to Victorian terracing further south. We carry hardware appropriate for both modern high-security installations and period properties throughout the borough.`,
+    intro: `TrustLock provides professional locksmith services across Southwark and the SE1 postcode. From emergency lockouts near London Bridge and Borough Market to residential lock upgrades in the Victorian terraces south of the borough, we cover the full range of Southwark's diverse property types. Our typical arrival time for SE1 addresses is 35–50 minutes from our SE22 base, reflecting the distance and central London traffic. We operate 9am–8pm, seven days a week.`,
+    localDetail: `Southwark encompasses one of the most varied property landscapes in Inner London — riverside apartment developments near the Thames, converted warehouse flats, Victorian and Georgian terracing in residential Southwark, and a dense commercial sector around London Bridge and Borough. The lock requirements reflect this variety: modern composite and timber doors in residential conversions, commercial-grade deadlocks and access control in business premises, and a significant proportion of older properties with original lock hardware that needs careful assessment before any work. We carry hardware for all of these contexts and provide a security assessment as standard before recommending any products.`,
     faqs: [
-      { question: "Do you cover SE1 (Southwark)?", answer: "Yes. SE1 is within our service area, though please note that arrival times may be slightly longer for central Southwark than for our core Dulwich area — typically 35–50 minutes." },
-      { question: "Can you help with a commercial lockout in Southwark?", answer: "Yes. We handle commercial lockouts across Southwark and aim to respond as quickly as possible to minimise disruption to your business." },
+      {
+        question: "Does TrustLock cover SE1 (Southwark)?",
+        answer: "Yes. SE1 is within our service area, though arrival times for central Southwark are typically 35–50 minutes from our SE22 base, reflecting distance and central London traffic. We confirm an arrival time when you call.",
+      },
+      {
+        question: "Can you help with a commercial lockout in Southwark?",
+        answer: "Yes. Commercial lockouts in SE1 — including offices, shops and business premises near London Bridge and Borough Market — are treated as priority calls. We aim to reach you as quickly as possible to minimise disruption.",
+      },
+      {
+        question: "Do you install high-security locks for Southwark flats and apartments?",
+        answer: "Yes. We fit TS007:2012 anti-snap cylinders, BS3621 mortice deadlocks and Mul-T-Lock high-security cylinders across SE1 residential properties. For managed buildings, we coordinate with managing agents where required for communal entrance work.",
+      },
     ],
   },
 };
