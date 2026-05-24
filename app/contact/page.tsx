@@ -136,6 +136,21 @@ export default function ContactPage() {
                   View all areas →
                 </Link>
               </div>
+
+              {/* Map */}
+              <div className="rounded-2xl overflow-hidden border border-slate-200">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2485.828039335503!2d-0.07849170000000001!3d51.4613136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487603908dadd0bd%3A0xf6d92f30c2fca855!2s46%20Grove%20Vale%2C%20London%20SE22%208DY%2C%20UK!5e0!3m2!1sen!2s!4v1779642750008!5m2!1sen!2s"
+                  width="100%"
+                  height="240"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="TrustLock Locksmith — 46 Grove Vale, London SE22 8DY"
+                  aria-label="Google Maps showing TrustLock Locksmith location at 46 Grove Vale, Dulwich SE22 8DY"
+                />
+              </div>
             </aside>
 
             {/* Form */}
