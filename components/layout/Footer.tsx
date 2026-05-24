@@ -11,7 +11,8 @@ import {
   Instagram,
   ChevronRight,
 } from "lucide-react";
-import { BUSINESS, NAVIGATION } from "@/lib/constants";
+import { BUSINESS, NAVIGATION, AREAS } from "@/lib/constants";
+import { services } from "@/lib/data/services";
 
 export function Footer() {
   const servicesNav = NAVIGATION.find((n) => n.label === "Services");
@@ -208,6 +209,28 @@ export function Footer() {
               </div>
             </li>
           </ul>
+        </div>
+      </div>
+
+      {/* Service × Area coverage grid — sitewide contextual links */}
+      <div className="border-t border-white/10 py-10">
+        <div className="container">
+          <p className="text-xs font-bold uppercase tracking-widest text-white/30 mb-6">
+            Locksmith Services Across South London
+          </p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-x-6 gap-y-1">
+            {services.flatMap((service) =>
+              AREAS.map((area) => (
+                <Link
+                  key={`${service.slug}-${area.slug}`}
+                  href={`/services/${service.slug}`}
+                  className="text-xs text-white/30 hover:text-gold-400 transition-colors leading-relaxed py-0.5"
+                >
+                  {service.shortTitle} {area.name}
+                </Link>
+              ))
+            )}
+          </div>
         </div>
       </div>
 

@@ -66,15 +66,24 @@ export default function HomePage() {
 
               <div className="space-y-4 text-slate-600 leading-relaxed">
                 <p>
-                  TrustLock is a locksmith service based at 46 Grove Vale, Dulwich, SE22 8DY. We&apos;ve
-                  been serving homes and businesses across SE22, SE21, SE15, SE5, SE24, SW2 and SE1
+                  TrustLock is a locksmith service based at 46 Grove Vale,{" "}
+                  <Link href="/areas/dulwich" className="text-gold-600 hover:underline font-medium">Dulwich</Link>, SE22 8DY. We&apos;ve
+                  been serving homes and businesses across{" "}
+                  <Link href="/areas/east-dulwich" className="text-gold-600 hover:underline font-medium">East Dulwich</Link>,{" "}
+                  <Link href="/areas/peckham" className="text-gold-600 hover:underline font-medium">Peckham</Link>,{" "}
+                  <Link href="/areas/camberwell" className="text-gold-600 hover:underline font-medium">Camberwell</Link>,{" "}
+                  <Link href="/areas/herne-hill" className="text-gold-600 hover:underline font-medium">Herne Hill</Link>,{" "}
+                  <Link href="/areas/brixton" className="text-gold-600 hover:underline font-medium">Brixton</Link> and{" "}
+                  <Link href="/areas/southwark" className="text-gold-600 hover:underline font-medium">Southwark</Link>{" "}
                   since 2014 — over 2,500 jobs completed across South London, and counting.
                 </p>
                 <p>
                   Every engineer on our team is DBS-checked, carries £2 million public liability
-                  insurance, and is trained to work with TS007:2012-rated anti-snap cylinders,
-                  BS3621:2007+A2:2012 mortice deadlocks, and the full range of UPVC multipoint
-                  mechanisms common to South London&apos;s period and modern housing stock.
+                  insurance, and is trained to work with TS007:2012-rated{" "}
+                  <Link href="/services/lock-installation" className="text-gold-600 hover:underline font-medium">anti-snap cylinders</Link>,{" "}
+                  BS3621:2007+A2:2012 mortice deadlocks, and the full range of{" "}
+                  <Link href="/services/upvc-door-lock-repair" className="text-gold-600 hover:underline font-medium">UPVC multipoint mechanisms</Link>{" "}
+                  common to South London&apos;s period and modern housing stock.
                 </p>
                 <p>
                   Our approach hasn&apos;t changed since we started: fixed prices confirmed before we

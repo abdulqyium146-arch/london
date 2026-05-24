@@ -12,6 +12,7 @@ import { formatDate } from "@/lib/utils";
 import { BUSINESS, SITE_URL } from "@/lib/constants";
 import type { ServiceSlug } from "@/lib/constants";
 import { BlogMoneyLinks } from "@/components/seo/BlogMoneyLinks";
+import { AllServicesNav } from "@/components/seo/AllServicesNav";
 import { BLOG_TO_SERVICES, BLOG_TO_AREAS } from "@/lib/data/internal-links";
 import { AREAS } from "@/lib/constants";
 
@@ -231,6 +232,9 @@ export default async function BlogPostPage({ params }: Props) {
                   </ul>
                 </div>
               )}
+
+              {/* All services nav — ensures every blog post links to every service */}
+              <AllServicesNav heading="All Services" />
             </aside>
           </div>
         </div>

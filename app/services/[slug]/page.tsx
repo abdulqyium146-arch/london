@@ -22,6 +22,7 @@ import { BUSINESS } from "@/lib/constants";
 import type { ServiceSlug } from "@/lib/constants";
 import { ServiceAreaLinks } from "@/components/seo/ServiceAreaLinks";
 import { TopicalCluster } from "@/components/seo/TopicalCluster";
+import { AllServicesNav } from "@/components/seo/AllServicesNav";
 import { SERVICE_CLUSTERS } from "@/lib/data/internal-links";
 
 interface Props {
@@ -70,7 +71,7 @@ export default async function ServicePage({ params }: Props) {
         <div className="container">
           <Breadcrumbs
             items={[
-              { label: "Services", href: "/services/emergency-locksmith" },
+              { label: "Services", href: "/services" },
               { label: service.shortTitle, href: `/services/${slug}` },
             ]}
             light
@@ -285,6 +286,9 @@ export default async function ServicePage({ params }: Props) {
                   currentSlug={service.slug as ServiceSlug}
                 />
               )}
+
+              {/* All services nav — links to every service page from every service page */}
+              <AllServicesNav currentSlug={service.slug} />
 
               {/* Emergency scenarios */}
               <div className="bg-white rounded-2xl border border-slate-100 p-6">

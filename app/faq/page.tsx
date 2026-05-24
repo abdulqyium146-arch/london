@@ -1,10 +1,43 @@
 import type { Metadata } from "next";
+import Link from "next/link";
+import { ArrowRight } from "lucide-react";
 import { Breadcrumbs } from "@/components/common/Breadcrumbs";
 import { CTASection } from "@/components/sections/CTASection";
 import { SchemaScript } from "@/components/common/SchemaScript";
 import { generateFAQSchema } from "@/lib/schema/faq";
 import { generateMetadata as genMeta } from "@/lib/seo/metadata";
 import { faqs, faqCategories, getFAQsByCategory } from "@/lib/data/faqs";
+
+// Maps FAQ IDs to relevant service pages — contextual cross-links below each answer
+const faqServiceLinks: Record<string, { label: string; href: string }[]> = {
+  "faq-1":  [{ label: "View areas we cover", href: "/areas" }],
+  "faq-3":  [{ label: "Emergency locksmith service", href: "/services/emergency-locksmith" }],
+  "faq-5":  [
+    { label: "Emergency locksmith from £65", href: "/services/emergency-locksmith" },
+    { label: "UPVC door lock repair from £75", href: "/services/upvc-door-lock-repair" },
+  ],
+  "faq-9":  [{ label: "Emergency locksmith service", href: "/services/emergency-locksmith" }],
+  "faq-10": [{ label: "Emergency locksmith Dulwich", href: "/services/emergency-locksmith" }],
+  "faq-11": [{ label: "Emergency locksmith — non-destructive entry", href: "/services/emergency-locksmith" }],
+  "faq-12": [{ label: "Lock repair and key extraction", href: "/services/lock-repair" }],
+  "faq-13": [
+    { label: "Lock installation — anti-snap cylinders", href: "/services/lock-installation" },
+    { label: "Residential locksmith service", href: "/services/residential-locksmith" },
+  ],
+  "faq-14": [
+    { label: "Lock installation — BS3621 locks", href: "/services/lock-installation" },
+    { label: "Residential locksmith service", href: "/services/residential-locksmith" },
+  ],
+  "faq-15": [
+    { label: "Lock installation service", href: "/services/lock-installation" },
+    { label: "Burglary repair and security upgrade", href: "/services/burglary-repair" },
+  ],
+  "faq-16": [
+    { label: "Residential locksmith — new property rekeying", href: "/services/residential-locksmith" },
+  ],
+  "faq-17": [{ label: "UPVC door lock repair service", href: "/services/upvc-door-lock-repair" }],
+  "faq-18": [{ label: "UPVC door lock repair — gearbox replacement", href: "/services/upvc-door-lock-repair" }],
+};
 
 export const metadata: Metadata = genMeta({
   title: "FAQ | Locksmith Questions Answered – TrustLock Dulwich",
@@ -71,6 +104,20 @@ export default function FAQPage() {
                       </summary>
                       <div className="px-5 pb-5">
                         <p className="text-sm text-slate-500 leading-relaxed">{faq.answer}</p>
+                        {faqServiceLinks[faq.id] && (
+                          <div className="mt-3 flex flex-wrap gap-2">
+                            {faqServiceLinks[faq.id].map((link) => (
+                              <Link
+                                key={link.href}
+                                href={link.href}
+                                className="inline-flex items-center gap-1 text-xs font-semibold text-gold-600 hover:text-gold-500 transition-colors"
+                              >
+                                {link.label}
+                                <ArrowRight size={10} aria-hidden="true" />
+                              </Link>
+                            ))}
+                          </div>
+                        )}
                       </div>
                     </details>
                   ))}

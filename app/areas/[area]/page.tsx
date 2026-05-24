@@ -12,6 +12,7 @@ import { services } from "@/lib/data/services";
 import { generateMetadata as genMeta } from "@/lib/seo/metadata";
 import type { AreaSlug } from "@/lib/constants";
 import { NearbyAreaLinks } from "@/components/seo/NearbyAreaLinks";
+import { AreaServiceLinks } from "@/components/seo/AreaServiceLinks";
 
 interface Props {
   params: Promise<{ area: string }>;
@@ -368,6 +369,9 @@ export default async function AreaPage({ params }: Props) {
           </div>
         </div>
       </section>
+
+      {/* Service × Area cross-links */}
+      <AreaServiceLinks areaName={areaData.name} areaSlug={areaSlug} />
 
       {/* FAQs */}
       <FAQSection
