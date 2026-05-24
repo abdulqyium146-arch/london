@@ -237,6 +237,19 @@ export function Footer() {
             </ul>
           </nav>
         </div>
+        <div className="container pb-5 flex justify-center">
+          <p className="text-xs text-white/30">
+            Powered by{" "}
+            <a
+              href="https://smallbusinessmarketingprofessional.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white/50 hover:text-gold-400 transition-colors font-medium"
+            >
+              Small Business Marketing Professional
+            </a>
+          </p>
+        </div>
       </div>
     </footer>
   );
