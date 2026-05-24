@@ -1,21 +1,65 @@
 {
+  "id": "https://trustlocklocksmithdulwich.com/",
   "name": "TrustLock Locksmith Dulwich",
   "short_name": "TrustLock",
-  "description": "Professional locksmith services in Dulwich and South London",
-  "start_url": "/",
+  "description": "Professional locksmith services in Dulwich and South London. Emergency lockouts, lock changes, UPVC repairs. Available 9am–8pm daily.",
+  "start_url": "/?source=pwa",
+  "scope": "/",
   "display": "standalone",
+  "display_override": ["standalone", "browser"],
   "background_color": "#0F172A",
   "theme_color": "#0F172A",
+  "lang": "en-GB",
+  "dir": "ltr",
+  "orientation": "any",
+  "categories": ["business", "utilities"],
   "icons": [
     {
-      "src": "/icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png"
+      "src": "/icon.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any"
     },
     {
-      "src": "/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png"
+      "src": "/apple-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Call Us Now",
+      "short_name": "Call",
+      "description": "Call TrustLock Locksmith directly",
+      "url": "tel:07984547185",
+      "icons": [{ "src": "/icon.png", "sizes": "32x32" }]
+    },
+    {
+      "name": "Get a Quote",
+      "short_name": "Quote",
+      "description": "Request a free locksmith quote",
+      "url": "/contact",
+      "icons": [{ "src": "/icon.png", "sizes": "32x32" }]
+    },
+    {
+      "name": "Emergency Locksmith",
+      "short_name": "Emergency",
+      "description": "Emergency lockout service",
+      "url": "/services/emergency-locksmith",
+      "icons": [{ "src": "/icon.png", "sizes": "32x32" }]
     }
   ]
 }

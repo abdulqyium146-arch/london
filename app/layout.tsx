@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
@@ -20,6 +20,17 @@ const inter = Inter({
   preload: true,
 });
 
+// Viewport export — Next.js 14+ separates theme-color from metadata
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#0F172A" },
+    { media: "(prefers-color-scheme: dark)", color: "#0F172A" },
+  ],
+  colorScheme: "light",
+  width: "device-width",
+  initialScale: 1,
+};
+
 export const metadata: Metadata = {
   ...defaultMetadata,
   metadataBase: new URL(SITE_URL),
@@ -28,6 +39,23 @@ export const metadata: Metadata = {
     default: `${BUSINESS.name} | Professional Locksmith in Dulwich`,
   },
   description: BUSINESS.description,
+  // Icons — Next.js injects all the correct <link> tags automatically
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/icon.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: [
+      { url: "/apple-icon.png", sizes: "180x180", type: "image/png" },
+    ],
+    other: [
+      {
+        rel: "mask-icon",
+        url: "/safari-pinned-tab.svg",
+      },
+    ],
+  },
+  manifest: "/manifest.json",
   openGraph: {
     type: "website",
     locale: "en_GB",
@@ -35,7 +63,7 @@ export const metadata: Metadata = {
     siteName: BUSINESS.name,
     images: [
       {
-        url: `${SITE_URL}/images/og-image.jpg`,
+        url: `${SITE_URL}/opengraph-image.png`,
         width: 1200,
         height: 630,
         alt: `${BUSINESS.name} — Professional Locksmith Services in Dulwich`,
@@ -45,6 +73,14 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@trustlocksmith",
+    images: [`${SITE_URL}/opengraph-image.png`],
+  },
+  other: {
+    // Windows tile
+    "msapplication-TileColor": "#0F172A",
+    "msapplication-config": "/browserconfig.xml",
+    // Prevent iOS from auto-detecting phone numbers as links
+    "format-detection": "telephone=no",
   },
 };
 
@@ -62,14 +98,10 @@ export default function RootLayout({
   return (
     <html lang="en-GB" className={inter.variable}>
       <head>
+        {/* DNS prefetch for third-party origins — performance + crawl hint */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-        <link rel="manifest" href="/manifest.json" />
-        <meta name="theme-color" content="#0F172A" />
-        <meta name="color-scheme" content="light" />
+        <link rel="dns-prefetch" href="https://maps.googleapis.com" />
         {schemas.map((schema, i) => (
           <SchemaScript key={i} schema={schema} />
         ))}

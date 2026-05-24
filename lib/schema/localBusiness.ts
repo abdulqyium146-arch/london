@@ -10,12 +10,13 @@ export function generateLocalBusinessSchema() {
     url: SITE_URL,
     telephone: BUSINESS.phone,
     email: BUSINESS.email,
-    image: `${SITE_URL}/images/og-image.jpg`,
+    image: `${SITE_URL}/opengraph-image.png`,
     logo: {
       "@type": "ImageObject",
-      url: `${SITE_URL}/images/logo.png`,
-      width: 300,
-      height: 80,
+      url: `${SITE_URL}/favicon.svg`,
+      width: 32,
+      height: 32,
+      encodingFormat: "image/svg+xml",
     },
     address: {
       "@type": "PostalAddress",
@@ -100,7 +101,7 @@ export function generateOrganizationSchema() {
     "@id": `${SITE_URL}/#organization`,
     name: BUSINESS.name,
     url: SITE_URL,
-    logo: `${SITE_URL}/images/logo.png`,
+    logo: `${SITE_URL}/favicon.svg`,
     contactPoint: {
       "@type": "ContactPoint",
       telephone: BUSINESS.phone,
