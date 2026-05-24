@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import { BUSINESS } from "@/lib/constants";
 import { Breadcrumbs } from "@/components/common/Breadcrumbs";
@@ -128,12 +129,12 @@ export default function ContactPage() {
                   Dulwich, East Dulwich, Peckham, Camberwell, Brixton, Herne Hill, Southwark, and
                   surrounding South London postcodes.
                 </p>
-                <a
+                <Link
                   href="/areas"
                   className="inline-flex items-center gap-1 text-sm font-semibold text-gold-600 hover:text-gold-500 transition-colors mt-3"
                 >
                   View all areas →
-                </a>
+                </Link>
               </div>
             </aside>
 

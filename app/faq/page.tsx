@@ -5,7 +5,6 @@ import { SchemaScript } from "@/components/common/SchemaScript";
 import { generateFAQSchema } from "@/lib/schema/faq";
 import { generateMetadata as genMeta } from "@/lib/seo/metadata";
 import { faqs, faqCategories, getFAQsByCategory } from "@/lib/data/faqs";
-import { FAQSection } from "@/components/sections/FAQSection";
 
 export const metadata: Metadata = genMeta({
   title: "FAQ | Locksmith Questions Answered – TrustLock Dulwich",
@@ -50,7 +49,7 @@ export default function FAQPage() {
                   {category}
                 </h2>
                 <div className="space-y-3">
-                  {categoryFAQs.map((faq, i) => (
+                  {categoryFAQs.map((faq) => (
                     <details
                       key={faq.id}
                       className="group bg-white rounded-2xl border border-slate-100 open:border-gold-200 open:shadow-elegant transition-all"

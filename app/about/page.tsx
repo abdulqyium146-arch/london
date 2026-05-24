@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
-import { Shield, CheckCircle2, Users, Award, Phone, ArrowRight } from "lucide-react";
+import { Shield, CheckCircle2, Users, Award } from "lucide-react";
 import { BUSINESS } from "@/lib/constants";
 import { Breadcrumbs } from "@/components/common/Breadcrumbs";
 import { TrustBadges } from "@/components/common/TrustBadges";

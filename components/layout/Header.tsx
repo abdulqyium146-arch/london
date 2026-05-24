@@ -26,8 +26,6 @@ export function Header() {
     return () => { document.body.style.overflow = ""; };
   }, [mobileOpen]);
 
-  const servicesNav = NAVIGATION.find((n) => n.label === "Services");
-
   return (
     <>
       {/* Emergency top bar */}
