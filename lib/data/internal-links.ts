@@ -24,40 +24,50 @@ export const SERVICE_CLUSTERS: Record<string, ServiceSlug[]> = {
 
 // Blog post → service money page mappings (blog acts as link funnel to money pages)
 export const BLOG_TO_SERVICES: Record<string, ServiceSlug[]> = {
-  "anti-snap-locks-south-london-guide": [
-    "lock-installation",
-    "burglary-repair",
-    "residential-locksmith",
-  ],
-  "upvc-door-problems-guide": [
-    "upvc-door-lock-repair",
-    "lock-repair",
-    "residential-locksmith",
-  ],
-  "how-to-choose-a-locksmith": [
-    "emergency-locksmith",
-    "residential-locksmith",
-    "commercial-locksmith",
-  ],
-  "smart-locks-guide": [
-    "smart-lock-installation",
-    "lock-installation",
-    "residential-locksmith",
-  ],
-  "burglary-repair-what-to-do": [
-    "burglary-repair",
-    "lock-installation",
-    "residential-locksmith",
-  ],
+  "anti-snap-locks-south-london-guide":      ["lock-installation", "burglary-repair", "residential-locksmith"],
+  "upvc-door-wont-lock-common-causes":       ["upvc-door-lock-repair", "lock-repair", "residential-locksmith"],
+  "locksmith-costs-dulwich-guide":           ["emergency-locksmith", "residential-locksmith", "lock-installation"],
+  "home-security-checklist-south-london":    ["residential-locksmith", "lock-installation", "burglary-repair"],
+  "smart-locks-worth-it-guide":              ["smart-lock-installation", "lock-installation", "residential-locksmith"],
+  "how-to-choose-a-locksmith-dulwich":       ["emergency-locksmith", "residential-locksmith", "commercial-locksmith"],
+  "what-to-do-after-break-in-london":        ["burglary-repair", "lock-installation", "residential-locksmith"],
+  "bs3621-insurance-approved-locks":         ["lock-installation", "residential-locksmith", "lock-repair"],
+  "lock-snapping-how-burglars-break-in":     ["lock-installation", "burglary-repair", "residential-locksmith"],
+  "master-key-systems-for-businesses":       ["commercial-locksmith", "lock-installation", "smart-lock-installation"],
+  "change-locks-when-moving-house":          ["residential-locksmith", "lock-installation", "lock-repair"],
+  "car-lockout-what-to-do":                  ["automotive-locksmith", "emergency-locksmith", "lock-repair"],
+  "mortice-deadlock-vs-euro-cylinder":       ["lock-installation", "residential-locksmith", "lock-repair"],
+  "ultion-vs-yale-platinum-anti-snap":       ["lock-installation", "residential-locksmith", "burglary-repair"],
+  "door-frame-reinforcement-guide":          ["burglary-repair", "residential-locksmith", "lock-installation"],
+  "commercial-lock-security-south-london":   ["commercial-locksmith", "lock-installation", "smart-lock-installation"],
+  "upvc-door-maintenance-guide":             ["upvc-door-lock-repair", "lock-repair", "residential-locksmith"],
+  "emergency-locksmith-what-to-expect":      ["emergency-locksmith", "residential-locksmith", "lock-repair"],
+  "smart-lock-battery-life-guide":           ["smart-lock-installation", "lock-installation", "residential-locksmith"],
+  "how-long-does-locksmith-take":            ["emergency-locksmith", "residential-locksmith", "automotive-locksmith"],
 };
 
 // Blog post → area page mappings (anchor local content to area pages)
 export const BLOG_TO_AREAS: Record<string, AreaSlug[]> = {
-  "anti-snap-locks-south-london-guide": ["dulwich", "east-dulwich", "peckham"],
-  "upvc-door-problems-guide":           ["dulwich", "herne-hill", "camberwell"],
-  "how-to-choose-a-locksmith":          ["dulwich", "east-dulwich", "brixton"],
-  "smart-locks-guide":                  ["dulwich", "southwark", "peckham"],
-  "burglary-repair-what-to-do":         ["dulwich", "brixton", "camberwell"],
+  "anti-snap-locks-south-london-guide":      ["dulwich", "east-dulwich", "peckham"],
+  "upvc-door-wont-lock-common-causes":       ["dulwich", "herne-hill", "camberwell"],
+  "locksmith-costs-dulwich-guide":           ["dulwich", "east-dulwich", "peckham"],
+  "home-security-checklist-south-london":    ["dulwich", "brixton", "camberwell"],
+  "smart-locks-worth-it-guide":              ["dulwich", "southwark", "peckham"],
+  "how-to-choose-a-locksmith-dulwich":       ["dulwich", "east-dulwich", "brixton"],
+  "what-to-do-after-break-in-london":        ["dulwich", "brixton", "camberwell"],
+  "bs3621-insurance-approved-locks":         ["dulwich", "herne-hill", "southwark"],
+  "lock-snapping-how-burglars-break-in":     ["dulwich", "peckham", "brixton"],
+  "master-key-systems-for-businesses":       ["southwark", "peckham", "camberwell"],
+  "change-locks-when-moving-house":          ["dulwich", "east-dulwich", "herne-hill"],
+  "car-lockout-what-to-do":                  ["dulwich", "peckham", "brixton"],
+  "mortice-deadlock-vs-euro-cylinder":       ["dulwich", "camberwell", "herne-hill"],
+  "ultion-vs-yale-platinum-anti-snap":       ["dulwich", "east-dulwich", "southwark"],
+  "door-frame-reinforcement-guide":          ["dulwich", "brixton", "peckham"],
+  "commercial-lock-security-south-london":   ["southwark", "camberwell", "peckham"],
+  "upvc-door-maintenance-guide":             ["dulwich", "herne-hill", "east-dulwich"],
+  "emergency-locksmith-what-to-expect":      ["dulwich", "east-dulwich", "camberwell"],
+  "smart-lock-battery-life-guide":           ["dulwich", "southwark", "brixton"],
+  "how-long-does-locksmith-take":            ["dulwich", "east-dulwich", "brixton"],
 };
 
 // Service page contextual anchor text — varies anchor text to avoid over-optimisation
