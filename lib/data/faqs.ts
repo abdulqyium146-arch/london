@@ -137,6 +137,94 @@ export const faqs: FAQ[] = [
     answer:
       "A dropped handle almost always indicates a failed gearbox — the internal component that translates handle rotation into multi-point bolt movement. The follower hole (the square or oval socket that accepts the handle spindle) has stripped, so the spindle turns freely without driving the mechanism. Don't continue forcing the handle — this can cause secondary damage to the spindle and faceplate. Gearbox replacement typically costs £95–£180 including parts and labour and is carried out in a single visit.",
   },
+  // Automotive
+  {
+    id: "faq-19",
+    category: "Automotive",
+    question: "How much does an automotive locksmith cost in South London?",
+    answer:
+      "A standard car lockout in South London costs £85–£150 with TrustLock, including attendance and non-destructive entry. Transponder key programming costs £150–£400 depending on make, model and key type. Basic key cutting without a chip is £40–£80. All prices are confirmed as a fixed quote before we start.",
+  },
+  {
+    id: "faq-20",
+    category: "Automotive",
+    question: "Can you program a transponder key on-site?",
+    answer:
+      "Yes, for most common makes and models. Transponder keys contain a chip that must be programmed to the vehicle's ECU. We carry diagnostic equipment for the majority of mainstream manufacturers (Ford, Volkswagen, Vauxhall, BMW, Toyota and others). Some specialist or luxury vehicles require dealer-level programming tools — we will tell you honestly if that is the case.",
+  },
+  {
+    id: "faq-21",
+    category: "Automotive",
+    question: "I have lost my car key completely — can you help without the original?",
+    answer:
+      "Yes. A locksmith can generate a replacement key from the vehicle's lock profile (cut from the door lock) without needing the original key. For modern cars with transponder chips, the new key is then programmed to the ECU on-site. The process takes 30–90 minutes depending on the vehicle. This is typically faster and cheaper than a main dealer.",
+  },
+  // Commercial
+  {
+    id: "faq-22",
+    category: "Commercial",
+    question: "Do you install master key systems for South London businesses?",
+    answer:
+      "Yes. We design and install master key systems for offices, retail premises, commercial buildings and multi-unit residential properties across South London. A master key system allows different staff to access different combinations of doors, with a single master key opening all. We use restricted-profile cylinders where key duplication requires an authorisation card — essential for key control over time.",
+  },
+  {
+    id: "faq-23",
+    category: "Commercial",
+    question: "Can you attend a commercial property outside business hours?",
+    answer:
+      "Yes. TrustLock operates 24 hours a day, 7 days a week for both residential and commercial call-outs. Business lockouts, alarm activations requiring lock access, post-break-in emergency boarding and out-of-hours security repairs all receive the same response as residential emergencies. Commercial pricing is quoted fixed before attendance.",
+  },
+  {
+    id: "faq-24",
+    category: "Commercial",
+    question: "What is the most important lock upgrade for a South London business?",
+    answer:
+      "For most businesses, the highest-return upgrade is fitting restricted-profile cylinders throughout the premises. These prevent key duplication by anyone other than the business owner — eliminating the most common commercial security exposure: former staff who retained key copies. Cost is £65–£120 per cylinder installed. Following that, a master key system with defined access levels is the next most impactful step.",
+  },
+  // Smart Locks
+  {
+    id: "faq-25",
+    category: "Smart Locks",
+    question: "Which smart locks do you install?",
+    answer:
+      "TrustLock installs and configures Yale Linus Smart Lock, Nuki Smart Lock Pro (4th generation), Ultion Smart cylinder, August Smart Lock Pro and Tedee smart lock. We recommend products based on your door type, connectivity requirements and whether you need smart home integration. All installations include full configuration of the app, access codes and connectivity testing.",
+  },
+  {
+    id: "faq-26",
+    category: "Smart Locks",
+    question: "Are smart locks as secure as traditional locks?",
+    answer:
+      "The best smart locks — Ultion Smart, Yale Linus and Nuki Pro — combine TS007 3-star or equivalent mechanical security with smart access. This means they are at least as secure mechanically as the best traditional anti-snap cylinders, with the addition of remote access management. Cheap or unknown-brand smart locks may have weaker mechanical security or poor encryption. We only install products with verified mechanical and digital security credentials.",
+  },
+  {
+    id: "faq-27",
+    category: "Smart Locks",
+    question: "Can you install a smart lock on any door?",
+    answer:
+      "Most standard UPVC, composite and timber doors can accept a smart lock or smart cylinder retrofit. The main requirements are that the door has a euro cylinder (most modern doors do) and sufficient space inside the door for the battery unit. Doors with non-standard cylinders, unusual profiles or certain high-security multipoint systems may need assessment first. Call us on 07984 547185 to discuss your specific door.",
+  },
+  // Security (additional)
+  {
+    id: "faq-28",
+    category: "Security",
+    question: "How do I know if my lock has been tampered with?",
+    answer:
+      "Signs of lock tampering include: fresh scratches around the cylinder face or keyway (indicating picking or bump key attempts), a cylinder that is slightly loose or rotated in the door (indicating snapping damage to the collar), difficulty turning the key when the lock previously operated smoothly (indicating internal damage), and visible deformation around the lock face plate. If you notice any of these, have a locksmith inspect the cylinder before assuming it is secure.",
+  },
+  {
+    id: "faq-29",
+    category: "Security",
+    question: "What door reinforcement do you recommend for Victorian and Edwardian properties in Dulwich?",
+    answer:
+      "Period properties in Dulwich, Herne Hill and Camberwell typically have original or replaced timber door frames which are vulnerable to kick-in attacks at the keep plate. We recommend: (1) a security strike plate with 100mm+ screws penetrating into the structural masonry, (2) a BS3621 five-lever mortice deadlock on all timber external doors, (3) hinge bolts on the hinge side, and (4) a night chain or limiter as a secondary barrier. Together these address both cylinder snapping and forced-entry attacks.",
+  },
+  {
+    id: "faq-30",
+    category: "Security",
+    question: "How often should I replace my door locks?",
+    answer:
+      "There is no fixed replacement schedule, but you should replace locks: when moving into any new property (always), after a break-in or attempted break-in, if keys are lost or you are uncertain who has copies, if the lock has become stiff or unreliable, and when an upgrade to current security standards is warranted (for example, replacing a standard cylinder with a TS007 3-star anti-snap version). Most quality locks last 10–15 years mechanically — but security standards improve, and a 10-year-old cylinder may no longer represent the best available protection.",
+  },
 ];
 
 export const faqCategories = [...new Set(faqs.map((f) => f.category))];

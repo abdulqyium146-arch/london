@@ -32,7 +32,7 @@ export const metadata: Metadata = genMeta({
   ],
 });
 
-const homepageFaqs = faqs.slice(0, 8);
+const homepageFaqs = faqs.slice(0, 10);
 const featuredPosts = getFeaturedPosts(3);
 
 export default function HomePage() {

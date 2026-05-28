@@ -37,12 +37,36 @@ const faqServiceLinks: Record<string, { label: string; href: string }[]> = {
   ],
   "faq-17": [{ label: "UPVC door lock repair service", href: "/services/upvc-door-lock-repair" }],
   "faq-18": [{ label: "UPVC door lock repair — gearbox replacement", href: "/services/upvc-door-lock-repair" }],
+  "faq-19": [{ label: "Automotive locksmith service", href: "/services/automotive-locksmith" }],
+  "faq-20": [{ label: "Automotive locksmith — key programming", href: "/services/automotive-locksmith" }],
+  "faq-21": [{ label: "Automotive locksmith — lost key replacement", href: "/services/automotive-locksmith" }],
+  "faq-22": [
+    { label: "Commercial locksmith service", href: "/services/commercial-locksmith" },
+    { label: "Lock installation — master key systems", href: "/services/lock-installation" },
+  ],
+  "faq-23": [{ label: "Commercial locksmith — 24/7 service", href: "/services/commercial-locksmith" }],
+  "faq-24": [
+    { label: "Commercial locksmith service", href: "/services/commercial-locksmith" },
+    { label: "Lock installation — restricted cylinders", href: "/services/lock-installation" },
+  ],
+  "faq-25": [{ label: "Smart lock installation service", href: "/services/smart-lock-installation" }],
+  "faq-26": [{ label: "Smart lock installation — security guide", href: "/services/smart-lock-installation" }],
+  "faq-27": [{ label: "Smart lock installation service", href: "/services/smart-lock-installation" }],
+  "faq-28": [
+    { label: "Residential locksmith service", href: "/services/residential-locksmith" },
+    { label: "Lock repair — cylinder inspection", href: "/services/lock-repair" },
+  ],
+  "faq-29": [
+    { label: "Burglary repair and door reinforcement", href: "/services/burglary-repair" },
+    { label: "Lock installation — period properties", href: "/services/lock-installation" },
+  ],
+  "faq-30": [{ label: "Lock installation service", href: "/services/lock-installation" }],
 };
 
 export const metadata: Metadata = genMeta({
-  title: "FAQ | Locksmith Questions Answered – TrustLock Dulwich",
+  title: "FAQ | 30 Locksmith Questions Answered Honestly – TrustLock Dulwich",
   description:
-    "Answers to the most common locksmith questions. Pricing, response times, anti-snap locks, UPVC repairs, emergencies and more — all answered honestly.",
+    "30 locksmith questions answered directly — pricing from £65, response times by postcode, anti-snap cylinders, BS3621 locks, UPVC repairs, automotive, commercial and smart locks. TrustLock SE22.",
   path: "/faq",
   keywords: ["locksmith FAQ", "locksmith questions", "how much does a locksmith cost", "emergency locksmith"],
 });
