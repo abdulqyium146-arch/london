@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Hero } from "@/components/sections/Hero";
 import { EmergencyBanner } from "@/components/sections/EmergencyBanner";
 import { TrustIndicators } from "@/components/sections/TrustIndicators";
@@ -99,7 +100,19 @@ export default function HomePage() {
                 </p>
               </div>
 
-              <div className="mt-8 flex flex-wrap gap-4">
+              {/* Team photo — E-E-A-T: real engineers, van, SE22 street sign */}
+              <figure className="mt-8 rounded-2xl overflow-hidden shadow-elegant">
+                <Image
+                  src="/images/trustlock-locksmiths-dulwich-se22-team.webp"
+                  alt="TrustLock Locksmith Dulwich team — two uniformed DBS-checked engineers with branded service van on a Dulwich SE22 street. Available 24/7 across South London."
+                  width={800}
+                  height={480}
+                  className="w-full h-auto object-cover"
+                  loading="lazy"
+                />
+              </figure>
+
+              <div className="mt-6 flex flex-wrap gap-4">
                 <Link href="/about" className="btn-secondary">
                   About Us
                   <ArrowRight size={16} aria-hidden="true" />

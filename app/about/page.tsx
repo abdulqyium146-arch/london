@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Shield, CheckCircle2, Users, Award } from "lucide-react";
 import { BUSINESS } from "@/lib/constants";
 import { Breadcrumbs } from "@/components/common/Breadcrumbs";
@@ -110,9 +111,26 @@ export default function AboutPage() {
               </div>
             </div>
 
-            {/* Stats */}
-            <div className="lg:col-span-2">
-              <div className="grid grid-cols-2 gap-4">
+            {/* Team photo + stats */}
+            <div className="lg:col-span-2 space-y-5">
+              {/* Team photo — E-E-A-T: real engineers, branded van, SE22 street sign */}
+              <figure className="rounded-2xl overflow-hidden shadow-elegant">
+                <Image
+                  src="/images/trustlock-locksmiths-dulwich-se22-team.webp"
+                  alt="TrustLock Locksmith Dulwich — two DBS-checked engineers in branded uniform standing beside their TrustLock service van on a Dulwich SE22 street, South London period properties in background"
+                  width={800}
+                  height={560}
+                  className="w-full h-auto object-cover"
+                  priority
+                />
+                <figcaption className="bg-navy-900 text-white/60 text-xs px-4 py-2.5 flex items-center justify-between">
+                  <span>TrustLock team — Dulwich SE22</span>
+                  <span className="text-gold-400 font-semibold">Since 2014</span>
+                </figcaption>
+              </figure>
+
+              {/* Stats grid */}
+              <div className="grid grid-cols-2 gap-3">
                 {[
                   { value: BUSINESS.trustSignals.yearsExperience, label: "Years in Dulwich" },
                   { value: BUSINESS.trustSignals.jobsCompleted, label: "Jobs Completed" },
@@ -121,15 +139,15 @@ export default function AboutPage() {
                 ].map((stat) => (
                   <div
                     key={stat.label}
-                    className="p-5 bg-slate-50 rounded-2xl border border-slate-100 text-center"
+                    className="p-4 bg-slate-50 rounded-2xl border border-slate-100 text-center"
                   >
-                    <p className="text-3xl font-extrabold text-navy-900 mb-1">{stat.value}</p>
+                    <p className="text-2xl font-extrabold text-navy-900 mb-0.5">{stat.value}</p>
                     <p className="text-xs text-slate-500 font-medium">{stat.label}</p>
                   </div>
                 ))}
               </div>
 
-              <div className="mt-5 p-5 bg-navy-900 rounded-2xl text-white">
+              <div className="p-5 bg-navy-900 rounded-2xl text-white">
                 <div className="flex items-center gap-3 mb-3">
                   <Shield size={20} className="text-gold-400" aria-hidden="true" />
                   <h3 className="font-bold">Our Guarantees</h3>
