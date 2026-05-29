@@ -60,20 +60,28 @@ const areaContent: Record<string, { intro: string; localDetail: string; faqs: { 
     ],
   },
   "east-dulwich": {
-    intro: `East Dulwich (SE22) is our most frequently served area by call volume. Because TrustLock is based on Grove Vale in SE22, our average response time to East Dulwich addresses is consistently under 30 minutes. We respond to lockouts, UPVC repairs, anti-snap upgrades and lock installations across the full SE22 postcode — from Lordship Lane and Peckham Rye to Goose Green and the streets around East Dulwich station.`,
-    localDetail: `East Dulwich has a diverse housing mix that covers almost every lock type we work with: Victorian terraces on roads like Underhill Road and Ondine Road with original timber frames; 1960s and 70s purpose-built flats with aluminium-framed doors; 1990s and 2000s new-build properties with UPVC or composite doors; and converted period properties with a mix of door types across individual floors. We carry the appropriate cylinders, mechanisms and hardware for all of them. UPVC multipoint failures and anti-snap cylinder upgrades are our two most common East Dulwich jobs.`,
+    intro: `East Dulwich SE22 is TrustLock's home postcode — our base at 46 Grove Vale sits in the heart of SE22, which means 24-hour emergency locksmith response to East Dulwich addresses in under 30 minutes, consistently. Whether you need emergency locksmith cover at 2am on Lordship Lane, a lock installation on Underhill Road, or a same-day UPVC repair on Barry Road, we carry the hardware and we know the area.`,
+    localDetail: `East Dulwich has more housing variety per square mile than almost any other South London neighbourhood — and we've worked through all of it. Victorian terraces on Ondine Road, Underhill Road and Ashbourne Grove with original timber frames and euro cylinders that often still lack anti-snap protection. 1960s and 70s purpose-built blocks off Peckham Rye with communal entrance systems. 1990s–2010s new builds throughout Goose Green with UPVC multipoint doors. Converted period properties on Barry Road and Lordship Lane with a mix of door types across floors. For lock installation in East Dulwich, we stock the full range: TS007:2012 anti-snap cylinders (Ultion, Yale Platinum, ABS Master), BS3621 five-lever mortice deadlocks from Yale and ERA, Avocet and Fullex UPVC gearboxes, and window lock solutions for SE22's numerous sash-window period properties. We are the 24-hour emergency locksmith for East Dulwich because we live and work in SE22 — not because we claim to.`,
     faqs: [
       {
-        question: "Does TrustLock cover the full SE22 postcode?",
-        answer: "Yes. SE22 (East Dulwich) is our primary service area and our most frequently attended postcode. We reach most SE22 addresses within 25–30 minutes and carry a comprehensive stock of hardware for the property types common to this area.",
+        question: "Do you provide a 24-hour emergency locksmith service in East Dulwich SE22?",
+        answer: "Yes. TrustLock operates 24 hours a day, 7 days a week from our base in SE22. East Dulwich is our primary service area — our average arrival time for SE22 addresses is 15–25 minutes at any time of day or night. No surcharge for night calls, weekends or bank holidays.",
       },
       {
-        question: "My UPVC door won't lock properly in East Dulwich — can you help?",
-        answer: "Yes. UPVC multipoint failures — dropped handles, bolts that won't extend, mechanisms that require excessive force — are our most common repair call in East Dulwich. We carry ERA, Fullex and Avocet gearboxes and mechanisms to resolve most faults on a single same-day visit.",
+        question: "What lock installation services do you offer in East Dulwich?",
+        answer: "We carry out the full range of lock installation in East Dulwich: anti-snap euro cylinder upgrades (TS007:2012 rated, from £55 fitted), BS3621 five-lever mortice deadlock installation (from £85 fitted), window lock fitting (sash and casement, from £35 per window), smart lock installation (Yale, Nuki, Ultion Smart, from £150 fitted), and whole-property rekeying on move-in day (from £55 per cylinder). All installation prices confirmed fixed before work starts.",
       },
       {
-        question: "Do you cover Lordship Lane and the surrounding streets?",
-        answer: "Yes — Lordship Lane and all residential streets on either side (Ondine Road, Underhill Road, Elsie Road, Pellatt Road, Barry Road and more) are well within our service area. We're familiar with the property types throughout this part of SE22.",
+        question: "My UPVC door won't lock properly in East Dulwich — can you come today?",
+        answer: "Yes, same-day. UPVC multipoint mechanism failures are our most common East Dulwich call — dropped handles, bolts that won't extend, or mechanisms needing excessive force usually indicate a failed gearbox. We carry ERA, Fullex and Avocet mechanisms and can resolve most East Dulwich UPVC faults in a single visit from £95.",
+      },
+      {
+        question: "Which streets in East Dulwich do you cover?",
+        answer: "We cover all of SE22 — Lordship Lane, Underhill Road, Ondine Road, Barry Road, Ashbourne Grove, Pellatt Road, Elsie Road, Goose Green, Melbourne Grove, Friern Road, Whateley Road, East Dulwich Road, Peckham Rye, and all streets throughout the SE22 postcode. We're on-site within 20–30 minutes from anywhere in East Dulwich.",
+      },
+      {
+        question: "Do you change locks for tenants moving into East Dulwich properties?",
+        answer: "Yes. Rekeying all external door cylinders is the first thing we recommend when moving into any East Dulwich property. The number of existing key copies in circulation is unknown. We can carry out a full property rekey on move-in day from £55 per cylinder — all locks confirmed working before we leave.",
       },
     ],
   },

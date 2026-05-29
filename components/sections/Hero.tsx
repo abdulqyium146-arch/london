@@ -1,18 +1,6 @@
-"use client";
-
 import Link from "next/link";
 import { Phone, Star, Shield, Clock, ChevronDown, CheckCircle2, MapPin } from "lucide-react";
 import { BUSINESS } from "@/lib/constants";
-import { motion } from "framer-motion";
-
-const fadeUp = {
-  hidden: { opacity: 0, y: 24 },
-  visible: (delay = 0) => ({
-    opacity: 1,
-    y: 0,
-    transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1], delay },
-  }),
-};
 
 const quickServices = [
   { label: "Emergency Lockout", href: "/services/emergency-locksmith", price: "from £65" },
@@ -56,13 +44,7 @@ export function Hero() {
         <div className="py-16 md:py-24 lg:py-28 max-w-4xl mx-auto text-center">
 
           {/* Top badges row */}
-          <motion.div
-            className="flex flex-wrap items-center justify-center gap-2.5 mb-7"
-            initial="hidden"
-            animate="visible"
-            variants={fadeUp}
-            custom={0}
-          >
+          <div className="flex flex-wrap items-center justify-center gap-2.5 mb-7">
             <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-white/20 backdrop-blur-sm">
               <Shield size={14} className="text-gold-400" aria-hidden="true" />
               <span className="text-xs font-semibold tracking-widest uppercase text-gold-300">
@@ -77,43 +59,25 @@ export function Hero() {
               </span>
               <span className="text-xs font-semibold text-emerald-300">Available Now — 24/7</span>
             </div>
-          </motion.div>
+          </div>
 
           {/* Headline */}
-          <motion.h1
-            className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight leading-[1.08] mb-5"
-            initial="hidden"
-            animate="visible"
-            variants={fadeUp}
-            custom={0.1}
-          >
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight leading-[1.08] mb-5">
             Locked Out?{" "}
             <span className="text-gold-400">We&apos;re On</span>
             <br className="hidden sm:block" />
             <span className="text-gold-400"> Our Way.</span>
-          </motion.h1>
+          </h1>
 
           {/* Sub-headline */}
-          <motion.p
-            className="text-lg sm:text-xl text-white/70 leading-relaxed max-w-2xl mx-auto mb-8"
-            initial="hidden"
-            animate="visible"
-            variants={fadeUp}
-            custom={0.2}
-          >
+          <p className="text-lg sm:text-xl text-white/70 leading-relaxed max-w-2xl mx-auto mb-8">
             Professional locksmith across Dulwich &amp; South London.{" "}
             <strong className="text-white">Prices from £65.</strong>{" "}
             Fixed quote before we start — no call-out fee, no hidden charges.
-          </motion.p>
+          </p>
 
           {/* Primary CTA */}
-          <motion.div
-            className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-4"
-            initial="hidden"
-            animate="visible"
-            variants={fadeUp}
-            custom={0.3}
-          >
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-4">
             <div className="flex flex-col items-center gap-1.5">
               <a
                 href={BUSINESS.phoneHref}
@@ -134,16 +98,10 @@ export function Hero() {
             >
               Get a Free Quote
             </Link>
-          </motion.div>
+          </div>
 
           {/* Service quick-links — let users self-select + SEO internal links */}
-          <motion.div
-            className="flex flex-wrap items-center justify-center gap-2 mb-10"
-            initial="hidden"
-            animate="visible"
-            variants={fadeUp}
-            custom={0.38}
-          >
+          <div className="flex flex-wrap items-center justify-center gap-2 mb-10">
             {quickServices.map((s) => (
               <Link
                 key={s.href}
@@ -161,16 +119,10 @@ export function Hero() {
                 <span className="text-xs text-white/35 font-normal">{s.price}</span>
               </Link>
             ))}
-          </motion.div>
+          </div>
 
           {/* Trust bar */}
-          <motion.div
-            className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 mb-6"
-            initial="hidden"
-            animate="visible"
-            variants={fadeUp}
-            custom={0.45}
-          >
+          <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 mb-6">
             <div className="flex items-center gap-2 text-sm text-white/60">
               <div className="flex items-center gap-0.5">
                 {[1, 2, 3, 4, 5].map((s) => (
@@ -179,7 +131,7 @@ export function Hero() {
               </div>
               <span>
                 <strong className="text-white">{BUSINESS.trustSignals.rating}</strong>{" "}
-                <span className="text-white/40 text-xs">
+                <span className="text-white/60 text-xs">
                   ({BUSINESS.trustSignals.reviewCount} Google reviews)
                 </span>
               </span>
@@ -204,34 +156,28 @@ export function Hero() {
               <strong className="text-white">{BUSINESS.trustSignals.jobsCompleted}</strong>{" "}
               jobs completed
             </div>
-          </motion.div>
+          </div>
 
           {/* Postcode coverage strip */}
-          <motion.div
-            className="flex items-center justify-center gap-2 flex-wrap"
-            initial="hidden"
-            animate="visible"
-            variants={fadeUp}
-            custom={0.52}
-          >
-            <MapPin size={11} className="text-white/25 shrink-0" aria-hidden="true" />
-            <span className="text-xs text-white/30 font-medium mr-0.5">Covers:</span>
+          <div className="flex items-center justify-center gap-2 flex-wrap">
+            <MapPin size={11} className="text-white/50 shrink-0" aria-hidden="true" />
+            <span className="text-xs text-white/60 font-medium mr-0.5">Covers:</span>
             {postcodes.map((pc) => (
               <span
                 key={pc}
-                className="text-xs font-mono font-semibold px-2 py-0.5 rounded-md bg-white/[0.07] text-white/50 border border-white/[0.09]"
+                className="text-xs font-mono font-semibold px-2 py-0.5 rounded-md bg-white/[0.07] text-white/70 border border-white/[0.09]"
               >
                 {pc}
               </span>
             ))}
-          </motion.div>
+          </div>
 
         </div>
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 text-white/30 animate-float">
-        <ChevronDown size={24} aria-hidden="true" />
+      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 text-white/30 animate-float" aria-hidden="true">
+        <ChevronDown size={24} />
       </div>
     </section>
   );

@@ -1,19 +1,7 @@
-"use client";
-
-import { motion } from "framer-motion";
 import { ServiceCard } from "@/components/common/ServiceCard";
 import { services } from "@/lib/data/services";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-
-const stagger = {
-  visible: { transition: { staggerChildren: 0.07 } },
-};
-
-const cardVariant = {
-  hidden: { opacity: 0, y: 20 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: [0.22, 1, 0.36, 1] } },
-};
 
 export function ServicesGrid() {
   return (
@@ -43,27 +31,20 @@ export function ServicesGrid() {
         </div>
 
         {/* Services grid */}
-        <motion.div
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5"
-          variants={stagger}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.1 }}
-        >
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {services.map((service) => (
-            <motion.div key={service.slug} variants={cardVariant}>
-              <ServiceCard
-                slug={service.slug}
-                title={service.title}
-                shortTitle={service.shortTitle}
-                intro={service.intro}
-                icon={service.icon}
-                priceFrom={service.priceFrom}
-                emergencyService={service.emergencyService}
-              />
-            </motion.div>
+            <ServiceCard
+              key={service.slug}
+              slug={service.slug}
+              title={service.title}
+              shortTitle={service.shortTitle}
+              intro={service.intro}
+              icon={service.icon}
+              priceFrom={service.priceFrom}
+              emergencyService={service.emergencyService}
+            />
           ))}
-        </motion.div>
+        </div>
 
         {/* View all link */}
         <div className="text-center mt-10">

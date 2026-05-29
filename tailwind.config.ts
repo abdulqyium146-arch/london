@@ -164,8 +164,8 @@ const config: Config = {
           "100%": { opacity: "1", transform: "translateX(0)" },
         },
         pulseGold: {
-          "0%, 100%": { boxShadow: "0 0 0 0 rgba(201, 168, 76, 0.4)" },
-          "50%": { boxShadow: "0 0 0 12px rgba(201, 168, 76, 0)" },
+          "0%, 100%": { opacity: "1" },
+          "50%": { opacity: "0.8" },
         },
         float: {
           "0%, 100%": { transform: "translateY(0px)" },

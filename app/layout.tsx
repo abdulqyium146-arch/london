@@ -98,9 +98,7 @@ export default function RootLayout({
   return (
     <html lang="en-GB" className={inter.variable}>
       <head>
-        {/* DNS prefetch for third-party origins — performance + crawl hint */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        {/* DNS prefetch for Maps API — font is self-hosted via next/font, no Google Fonts fetch needed */}
         <link rel="dns-prefetch" href="https://maps.googleapis.com" />
         {schemas.map((schema, i) => (
           <SchemaScript key={i} schema={schema} />
@@ -114,7 +112,8 @@ export default function RootLayout({
           Skip to main content
         </a>
         <Header />
-        <main id="main-content" className="flex-1">
+        {/* pb-14 on mobile reserves space so the sticky bottom call bar never obscures content */}
+        <main id="main-content" className="flex-1 pb-14 md:pb-0">
           {children}
         </main>
         <Footer />

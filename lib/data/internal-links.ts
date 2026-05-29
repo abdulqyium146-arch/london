@@ -44,6 +44,10 @@ export const BLOG_TO_SERVICES: Record<string, ServiceSlug[]> = {
   "emergency-locksmith-what-to-expect":      ["emergency-locksmith", "residential-locksmith", "lock-repair"],
   "smart-lock-battery-life-guide":           ["smart-lock-installation", "lock-installation", "residential-locksmith"],
   "how-long-does-locksmith-take":            ["emergency-locksmith", "residential-locksmith", "automotive-locksmith"],
+  "window-lock-prices-dulwich":              ["lock-installation", "residential-locksmith", "lock-repair"],
+  "smart-lock-reviews-dulwich-2025":         ["smart-lock-installation", "lock-installation", "residential-locksmith"],
+  "emergency-locksmith-reviews-dulwich":     ["emergency-locksmith", "residential-locksmith", "lock-repair"],
+  "lock-repair-near-me-dulwich":             ["lock-repair", "upvc-door-lock-repair", "emergency-locksmith"],
 };
 
 // Blog post → area page mappings (anchor local content to area pages)
@@ -68,6 +72,10 @@ export const BLOG_TO_AREAS: Record<string, AreaSlug[]> = {
   "emergency-locksmith-what-to-expect":      ["dulwich", "east-dulwich", "camberwell"],
   "smart-lock-battery-life-guide":           ["dulwich", "southwark", "brixton"],
   "how-long-does-locksmith-take":            ["dulwich", "east-dulwich", "brixton"],
+  "window-lock-prices-dulwich":              ["dulwich", "east-dulwich", "herne-hill"],
+  "smart-lock-reviews-dulwich-2025":         ["dulwich", "east-dulwich", "southwark"],
+  "emergency-locksmith-reviews-dulwich":     ["dulwich", "east-dulwich", "peckham"],
+  "lock-repair-near-me-dulwich":             ["east-dulwich", "dulwich", "herne-hill"],
 };
 
 // Service page contextual anchor text — varies anchor text to avoid over-optimisation

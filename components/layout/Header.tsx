@@ -152,16 +152,25 @@ export function Header() {
               </Link>
             </div>
 
-            {/* Mobile menu button */}
-            <button
-              className="lg:hidden p-2 rounded-lg text-slate-700 hover:bg-slate-100 transition-colors"
-              onClick={() => setMobileOpen(!mobileOpen)}
-              aria-label={mobileOpen ? "Close navigation menu" : "Open navigation menu"}
-              aria-expanded={mobileOpen}
-              aria-controls="mobile-menu"
-            >
-              {mobileOpen ? <X size={22} /> : <Menu size={22} />}
-            </button>
+            {/* Mobile CTAs */}
+            <div className="flex items-center gap-2 lg:hidden">
+              <a
+                href={BUSINESS.phoneHref}
+                className="flex items-center justify-center w-10 h-10 rounded-xl bg-gold-500 text-navy-900 hover:bg-gold-400 active:bg-gold-600 transition-colors"
+                aria-label={`Call us: ${BUSINESS.phone}`}
+              >
+                <Phone size={18} aria-hidden="true" />
+              </a>
+              <button
+                className="p-2 rounded-lg text-slate-700 hover:bg-slate-100 transition-colors"
+                onClick={() => setMobileOpen(!mobileOpen)}
+                aria-label={mobileOpen ? "Close navigation menu" : "Open navigation menu"}
+                aria-expanded={mobileOpen}
+                aria-controls="mobile-menu"
+              >
+                {mobileOpen ? <X size={22} /> : <Menu size={22} />}
+              </button>
+            </div>
           </div>
         </div>
       </header>

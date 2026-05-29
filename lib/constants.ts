@@ -69,6 +69,7 @@ export const NAVIGATION = [
     ],
   },
   { label: "Areas", href: "/areas" },
+  { label: "Prices", href: "/prices" },
   { label: "About", href: "/about" },
   { label: "Blog", href: "/blog" },
   { label: "FAQ", href: "/faq" },

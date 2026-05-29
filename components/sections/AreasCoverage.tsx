@@ -1,6 +1,3 @@
-"use client";
-
-import { motion } from "framer-motion";
 import Link from "next/link";
 import { MapPin, ArrowRight } from "lucide-react";
 import { AREAS } from "@/lib/constants";
@@ -47,57 +44,35 @@ export function AreasCoverage() {
           </div>
 
           {/* Areas grid */}
-          <div>
-            <motion.div
-              className="grid grid-cols-2 sm:grid-cols-3 gap-3"
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, amount: 0.2 }}
-              variants={{ visible: { transition: { staggerChildren: 0.06 } } }}
-            >
-              {AREAS.map((area) => (
-                <motion.div
-                  key={area.slug}
-                  variants={{
-                    hidden: { opacity: 0, scale: 0.95 },
-                    visible: { opacity: 1, scale: 1, transition: { duration: 0.4 } },
-                  }}
-                >
-                  <Link
-                    href={`/areas/${area.slug}`}
-                    className="group flex flex-col gap-1.5 p-4 rounded-xl border border-slate-100 bg-white hover:border-gold-200 hover:shadow-elegant transition-all duration-200"
-                    aria-label={`Locksmith services in ${area.name}`}
-                  >
-                    <div className="flex items-center gap-2">
-                      <MapPin
-                        size={14}
-                        className="text-gold-500 shrink-0"
-                        aria-hidden="true"
-                      />
-                      <span className="text-sm font-bold text-navy-900 group-hover:text-gold-700 transition-colors">
-                        {area.name}
-                      </span>
-                    </div>
-                    <span className="text-xs text-slate-400 font-mono pl-5">
-                      {area.postcode}
-                    </span>
-                  </Link>
-                </motion.div>
-              ))}
-
-              {/* Catch-all tile */}
-              <motion.div
-                variants={{
-                  hidden: { opacity: 0, scale: 0.95 },
-                  visible: { opacity: 1, scale: 1, transition: { duration: 0.4 } },
-                }}
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+            {AREAS.map((area) => (
+              <Link
+                key={area.slug}
+                href={`/areas/${area.slug}`}
+                className="group flex flex-col gap-1.5 p-4 rounded-xl border border-slate-100 bg-white hover:border-gold-200 hover:shadow-elegant transition-all duration-200"
+                aria-label={`Locksmith services in ${area.name}`}
               >
-                <div className="flex flex-col gap-1.5 p-4 rounded-xl border-2 border-dashed border-gold-200 bg-gold-50">
-                  <span className="text-xs font-semibold text-gold-700">+ Surrounding Areas</span>
-                  <span className="text-[11px] text-gold-600">Call to confirm coverage</span>
+                <div className="flex items-center gap-2">
+                  <MapPin
+                    size={14}
+                    className="text-gold-500 shrink-0"
+                    aria-hidden="true"
+                  />
+                  <span className="text-sm font-bold text-navy-900 group-hover:text-gold-700 transition-colors">
+                    {area.name}
+                  </span>
                 </div>
-              </motion.div>
-            </motion.div>
+                <span className="text-xs text-slate-400 font-mono pl-5">
+                  {area.postcode}
+                </span>
+              </Link>
+            ))}
+
+            {/* Catch-all tile */}
+            <div className="flex flex-col gap-1.5 p-4 rounded-xl border-2 border-dashed border-gold-200 bg-gold-50">
+              <span className="text-xs font-semibold text-gold-700">+ Surrounding Areas</span>
+              <span className="text-[11px] text-gold-600">Call to confirm coverage</span>
+            </div>
           </div>
         </div>
       </div>

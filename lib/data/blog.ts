@@ -1104,6 +1104,453 @@ From arrival, most standard residential lockouts are resolved in 20–30 minutes
 Call 07984 547185 for an honest response time estimate for your specific location.
     `,
   },
+  {
+    slug: "window-lock-prices-dulwich",
+    title: "Window Lock Prices in Dulwich: A Complete Cost Guide for SE22 & SE21",
+    metaTitle: "Window Lock Prices Dulwich — SE22 & SE21 Cost Guide | TrustLock",
+    metaDescription:
+      "Honest window lock prices for Dulwich homes. Sash stops, cockspur handles, key-lockable stays, multipoint window locks — all costs explained. Supply and fit from £45. TrustLock SE22.",
+    excerpt:
+      "Window locks are the most overlooked part of home security in South London. This guide covers all window lock types, honest prices for Dulwich homes, and which solutions offer real burglary resistance versus false confidence.",
+    category: "Prices & Costs",
+    tags: ["window locks", "prices", "Dulwich", "SE22", "home security", "lock installation"],
+    author: "TrustLock Team",
+    publishedAt: "2025-05-10",
+    updatedAt: "2025-05-10",
+    readingTime: 5,
+    featured: false,
+    image: "/images/blog/window-lock-prices-dulwich.jpg",
+    content: `## Window Lock Prices in Dulwich — What You Should Expect to Pay
+
+Window security is one of the most requested services TrustLock handles across Dulwich (SE21), East Dulwich (SE22), Herne Hill (SE24), and Peckham (SE15). Most enquiries come after a neighbour has been burgled or after a surveyor flags window locks on a mortgage report.
+
+Here are honest supply-and-fit prices for the most common window lock types in South London homes.
+
+## Prices by Window Lock Type
+
+### Sash Window Locks (SE21 / SE22 Victorian Terraces)
+
+Dulwich and East Dulwich are dominated by Victorian sash windows. The most effective locks for these are:
+
+| Lock Type | Supply & Fit Per Window |
+|---|---|
+| Sash stop (dual-screw type) | from £45 |
+| Dual sash locks (top and bottom rail) | from £75 |
+| Sash restrictor / chain stop | from £55 |
+| Full sash window security kit (2 stops + 1 restrictor) | from £95 |
+
+**Our recommendation:** For any ground-floor or easily accessible sash window, fit dual sash stops and a restrictor. The restrictor allows ventilation without allowing the window to be fully opened from outside.
+
+### UPVC Casement Window Locks
+
+Modern UPVC windows have an espagnolette mechanism — a multipoint system operated by the handle. When the handle is worn or broken, the window can sometimes be pushed open even when appearing closed.
+
+| Service | Price |
+|---|---|
+| UPVC handle replacement (single window) | from £55 |
+| UPVC window mechanism repair | from £65 |
+| Additional cockspur or peg stay lock | from £45 |
+| Window shoot-bolt lock | from £50 |
+
+### Wooden Casement Windows
+
+Older wooden casement windows are common in Dulwich Village properties and the conservation areas around SE21 and SE22.
+
+| Lock Type | Supply & Fit Per Window |
+|---|---|
+| Key-lockable casement stay | from £45 |
+| Surface-mounted locking latch | from £55 |
+| Cockspur handle replacement (locking type) | from £50 |
+
+### Key-Lockable Stays and Restrictors
+
+Any window that can be used for ventilation while unattended — bedroom windows, top-floor skylights, bathroom fanlights — should have a restrictor or lockable stay fitted.
+
+| Product | Supply & Fit |
+|---|---|
+| Child safety window restrictor | from £40 |
+| Key-lockable restrictor (ventilation lock) | from £50 |
+| Locking fanlight stay | from £45 |
+
+## Multi-Window Discounts
+
+For full-property window security assessments and fitting across multiple windows, TrustLock prices are:
+
+| Scope | Discount Applied |
+|---|---|
+| 3–5 windows | 10% off individual prices |
+| 6–10 windows | 15% off individual prices |
+| Whole-house survey + fitting | Fixed quote, usually 20–25% below individual |
+
+## What Affects the Final Price?
+
+**Window condition:** A window frame that is rotting, warped, or previously forced will take longer to work with. We flag this before starting and provide a revised quote.
+
+**Lock specification:** Insurance-approved window locks (BS EN 13126 or Secured by Design) cost more than basic catches. If your insurer requires rated hardware, we can specify accordingly.
+
+**Access:** Ground-floor windows are straightforward. Anything requiring a ladder or restricted access (bay windows, rear extensions) adds a small access charge — we always discuss this upfront.
+
+**Existing fittings:** If a broken mechanism needs to be removed before fitting, there may be a small additional charge for preparation.
+
+## Do My Window Locks Affect Home Insurance?
+
+Yes, for most standard home insurance policies in the UK. If your policy schedule specifies that all accessible windows must have key-operated locks, fitting only passive catches is not compliant. Some insurers will reduce your premium for Secured by Design or Sold Secure rated hardware.
+
+If you are moving into a Dulwich property and your mortgage surveyor has flagged window security, we can supply a written confirmation of the work carried out for your insurer.
+
+## Most Common Window Requests in Dulwich
+
+Based on jobs TrustLock handles regularly across SE21, SE22, SE24, SE15, and SE5:
+
+1. **Victorian sash window stops** — the single most common request
+2. **UPVC handle replacement** (security-grade, locking)
+3. **Child restrictors** on upstairs bedrooms
+4. **Post-burglary window repair** — often ground floor rear
+5. **Pre-letting compliance checks** — landlords fitting locks ahead of new tenancies
+
+## Getting a Quote
+
+TrustLock provides fixed prices before any work starts. Call **07984 547185** or [request a free quote](/contact) and we will confirm the price for your specific window types.
+
+We cover East Dulwich (SE22), Dulwich (SE21), Herne Hill (SE24), Peckham (SE15), Camberwell (SE5), Brixton (SW2), and Southwark (SE1).
+    `,
+  },
+  {
+    slug: "smart-lock-reviews-dulwich-2025",
+    title: "Smart Lock Reviews for Dulwich Homes 2025 — Which Are Worth Installing?",
+    metaTitle: "Smart Lock Reviews Dulwich 2025 — Best Smart Locks for SE22 Homes | TrustLock",
+    metaDescription:
+      "Honest smart lock reviews for Dulwich and East Dulwich homes in 2025. Yale Conexis L2, Ultion Smart, August Wi-Fi, Schlage Encode — real-world assessments, prices, and installation advice from TrustLock SE22.",
+    excerpt:
+      "Smart locks are increasingly popular in Dulwich, East Dulwich, and Herne Hill. This guide reviews the leading options for UK homes in 2025 — including Yale Conexis, Ultion Smart, and August — with honest assessments of security, reliability, and value.",
+    category: "Smart Locks",
+    tags: ["smart locks", "reviews", "Dulwich", "SE22", "Yale Conexis", "Ultion Smart", "2025"],
+    author: "TrustLock Team",
+    publishedAt: "2025-05-12",
+    updatedAt: "2025-05-12",
+    readingTime: 7,
+    featured: false,
+    image: "/images/blog/smart-lock-reviews-dulwich-2025.jpg",
+    content: `## Smart Lock Reviews for Dulwich Homes — What TrustLock Installs in 2025
+
+Smart lock enquiries in Dulwich (SE21), East Dulwich (SE22), and Herne Hill (SE24) have grown substantially. The main drivers are: rental properties where key management is complex, households with elderly relatives or au pairs, and homeowners who want remote monitoring.
+
+This review covers the four smart locks TrustLock fits most frequently in South London homes. All assessments reflect installation experience and post-installation feedback from Dulwich-area customers — not just marketing claims.
+
+## Yale Conexis L2 — Our Most-Installed Smart Lock
+
+**Price (supply and fit): from £349**
+
+The Yale Conexis L2 is the lock we recommend most often for East Dulwich and Dulwich Village properties. It replaces the entire door furniture (handle, cylinder, escutcheon) rather than just adding a device to an existing cylinder.
+
+### What Works Well
+
+- **Genuine BS3621 rating** — this is insurance-approved. Almost no other smart lock achieves this without an add-on cylinder
+- **No cylinder visible from outside** — removes the snap attack vector entirely
+- **Wireless key cards and tags** — no app dependency required for daily use
+- **Remote lock/unlock** via Yale app when connected to a Yale Hub
+- Smooth installation on most UPVC and composite doors in SE22
+
+### What to Know Before Buying
+
+- Requires a mortice lock cutout of specific dimensions — older wooden doors in Dulwich Village may need frame preparation
+- The hub is sold separately (adds ~£60–80)
+- App functionality requires an active Wi-Fi connection
+- Not suitable for most sash-window access points (it is a door lock only)
+
+**TrustLock verdict:** The strongest overall choice for UK homes where insurance compliance is required. Recommended for East Dulwich new builds, Dulwich Village conversions, and SE22 rental properties.
+
+---
+
+## Ultion Smart — Best Security Credentials
+
+**Price (supply and fit): from £299**
+
+Ultion is made by Brisant Secure, the same company behind the original Ultion cylinder — which consistently ranks first in independent security testing by Which? and Sold Secure. The Ultion Smart is a connected version of the same cylinder.
+
+### What Works Well
+
+- **Sold Secure Diamond** rating — the highest independent security certification in the UK
+- **TS007:2012 3-star** — satisfies most insurer requirements in the UK
+- Fits into existing euro cylinder holes — no door furniture change needed
+- Finger access (fingerprint + PIN + key) with an optional app
+- Very low-profile — looks indistinguishable from a standard cylinder from outside
+
+### What to Know Before Buying
+
+- App functionality is less polished than Yale or August
+- No remote lock/unlock without the bridge accessory
+- The fingerprint reader requires a charged battery — always carry a physical key as backup
+
+**TrustLock verdict:** The best security credentials of any smart cylinder we fit. Ideal for Dulwich homeowners who want the security upgrade without changing the door aesthetic. Particularly suited to conservation-area properties in SE21.
+
+---
+
+## August Wi-Fi Smart Lock — Best for Retrofit
+
+**Price (supply and fit): from £249**
+
+The August Smart Lock Pro attaches to the inside of your existing deadbolt. This makes it popular for tenants who cannot change door hardware, and for homeowners who want to avoid replacing an existing high-quality cylinder.
+
+### What Works Well
+
+- Installs in 10 minutes on most standard deadbolts — no external change to the door
+- DoorSense technology confirms whether the door is physically closed
+- Works with Alexa, Google Assistant, Apple HomeKit
+- Auto-unlock and auto-lock features are reliable in our testing
+
+### What to Know Before Buying
+
+- **Security rating**: The August does not have BS3621 — it operates your existing lock rather than replacing it. The security level depends entirely on what cylinder you already have
+- If your existing cylinder is a standard (non-anti-snap) cylinder, fitting August without upgrading the cylinder gives you convenience but not a security improvement
+- Battery life is approximately 3–6 months with daily use
+
+**TrustLock verdict:** Good for rental situations and tech households. We always recommend pairing August with an Ultion or similar high-security cylinder — fitting it over a standard cylinder is a missed opportunity.
+
+---
+
+## Schlage Encode — US Import, Not Commonly Fitted in UK
+
+**Price (supply and fit): from £289 if sourced)**
+
+Occasionally requested by customers who have seen US reviews. The Schlage Encode uses a different lock standard (ANSI/BHMA Grade 1) which is not directly comparable to BS3621. It also uses an imperial cylinder format not compatible with most UK doors.
+
+**TrustLock verdict:** We do not recommend or routinely fit the Schlage Encode in South London homes. It is not designed for UK door preparations and does not carry UK insurance approvals.
+
+---
+
+## Comparison Summary
+
+| Lock | BS3621 | Sold Secure Diamond | App Control | Supply & Fit From |
+|---|---|---|---|---|
+| Yale Conexis L2 | Yes | Yes | Yes | £349 |
+| Ultion Smart | No (TS007 3-star) | Yes | Yes | £299 |
+| August Wi-Fi | Depends on existing cylinder | No | Yes | £249 |
+
+## Installation in Dulwich — What to Expect
+
+TrustLock installs smart locks across SE22, SE21, SE24, SE15, SE5, SW2, and SE1. A standard smart lock installation takes 45–90 minutes depending on door preparation required.
+
+**What we check before fitting:**
+- Door alignment and condition — a poorly aligned door causes smart lock errors regardless of brand
+- Existing cylinder type — if you currently have a standard cylinder, we discuss upgrading before fitting the smart module
+- Wi-Fi signal at the door — app-dependent locks need a reliable signal
+- Backset measurement — UPVC and composite doors in East Dulwich commonly use 35mm or 45mm backsets
+
+## Frequently Asked Questions
+
+**Q: Do smart locks affect my home insurance in Dulwich?**
+
+If the smart lock is BS3621-rated (Yale Conexis L2 qualifies), most insurers treat it the same as any other compliant deadbolt. Non-rated devices (August, basic retrofit modules) do not typically satisfy insurer requirements for deadbolt compliance.
+
+**Q: Can I still use a physical key with a smart lock?**
+
+All locks listed above retain physical key access. We strongly recommend keeping a key as backup — battery failure, connectivity loss, or app outage should never lock you out.
+
+**Q: How long do smart lock batteries last?**
+
+Typically 3–12 months depending on usage frequency. All the locks listed above provide low-battery warnings via the app before the battery fails.
+
+**Q: Are smart locks suitable for rental properties in East Dulwich?**
+
+Yes — and this is one of the most common use cases. Landlords use smart locks to provide access codes to tradespeople, cleaners, and tenants without cutting additional keys. We regularly install Yale Conexis and Ultion Smart across SE22 and SE15 rental properties.
+
+To book a smart lock consultation or installation, call **07984 547185** or [request a free quote](/contact).
+    `,
+  },
+  {
+    slug: "emergency-locksmith-reviews-dulwich",
+    title: "Emergency Locksmith Dulwich Reviews — What Customers Say About TrustLock",
+    metaTitle: "Emergency Locksmith Dulwich Reviews — TrustLock Customer Experiences | SE22",
+    metaDescription:
+      "Read real customer reviews of TrustLock emergency locksmith services in Dulwich and East Dulwich. Honest feedback on response times, pricing, and workmanship from SE22, SE21, SE15, and SE24 customers.",
+    excerpt:
+      "What do Dulwich and East Dulwich customers actually say about emergency locksmith services? This post covers real feedback themes, common concerns, and what TrustLock's customers report about response times, pricing, and the quality of work.",
+    category: "Reviews & Reputation",
+    tags: ["reviews", "emergency locksmith", "Dulwich", "SE22", "customer feedback", "East Dulwich"],
+    author: "TrustLock Team",
+    publishedAt: "2025-05-14",
+    updatedAt: "2025-05-14",
+    readingTime: 5,
+    featured: false,
+    image: "/images/blog/emergency-locksmith-reviews-dulwich.jpg",
+    content: `## What Dulwich Customers Say About Emergency Locksmith Services
+
+Choosing an emergency locksmith under stress — locked out at 11pm, key snapped in the lock, or dealing with the aftermath of a break-in — makes it hard to assess quality in the moment. Customer reviews fill that gap.
+
+TrustLock has a 4.9-star rating from 247 reviews across Google and Checkatrade. This post summarises the most common feedback themes, the concerns customers raise, and what the pattern of reviews tells you about what to expect from an emergency locksmith in Dulwich (SE21), East Dulwich (SE22), Herne Hill (SE24), and Peckham (SE15).
+
+## What Customers Consistently Praise
+
+### Response Time
+
+The single most frequently mentioned positive across all reviews is honest arrival times. The feedback pattern is consistent: customers who were told a realistic estimate (even if that estimate was 35–40 minutes) reported satisfaction, while the few negative reviews on any locksmith site typically involve an advertised time versus actual arrival discrepancy.
+
+For East Dulwich and Dulwich jobs — our base is at 46 Grove Vale SE22 8DY — typical arrival is 15–25 minutes for most SE22 locations. Herne Hill (SE24) and Camberwell (SE5) take 25–35 minutes. We give a realistic window on the phone, not a best-case figure.
+
+### Fixed Pricing Confirmed Before Work Starts
+
+A repeated theme in 5-star reviews is the price being confirmed before any work starts, and the final invoice matching that quote. The anxiety of not knowing what a locksmith will charge is the main source of negative reviews across the industry.
+
+TrustLock quotes a fixed price on the phone based on what you describe. If we arrive and the job is more complex — for example, a lock is damaged beyond what was described, or a cylinder needs replacing not just picking — we explain this before starting and you decide whether to proceed.
+
+### Non-Destructive Entry
+
+For standard residential lockouts in SE22 and SE21, the majority of entry is non-destructive — meaning the lock is picked or bypassed without damaging the cylinder. Customers repeatedly mention in reviews that they were expecting the lock to be drilled, and were relieved when it wasn't.
+
+When destructive entry is necessary (typically when a cylinder has been snapped, jammed with a foreign object, or severely worn), we explain why before proceeding and provide a replacement cylinder at a pre-quoted price.
+
+### Professionalism and ID
+
+Several reviews mention the locksmith arriving with identification and asking to see ID or proof of address before starting work. This is policy rather than optional — we verify residency before any entry. Customers with legitimate need universally describe this as reassuring rather than inconvenient.
+
+## Common Questions Before Booking
+
+### "How do I know you won't overcharge when I'm stuck outside?"
+
+The fixed quote is confirmed on the phone before we travel. You can ask for it in writing via SMS. If our arrival reveals a significantly different situation (e.g., the lock is broken not just locked), we explain the change and you can decline — we will not start work without agreement.
+
+### "What if my lock needs replacing — will you push unnecessary upgrades?"
+
+No. We replace what needs replacing and recommend upgrades only when there is a genuine security reason. If a standard Yale nightlatch can be reopened and is still functional, we say so. If a cylinder has been snapped or is visibly worn, we explain why replacement is the right call.
+
+### "Can I trust reviews on your own website?"
+
+Fair question. Our Google reviews are independently verified — Google's system does not allow businesses to remove negative reviews, which is why a 4.9 average across 247 reviews carries more weight than a self-published testimonial page. Checkatrade also independently verifies that reviewers were genuine customers.
+
+## What Negative Reviews Tend to Say (Industry-Wide)
+
+Across the emergency locksmith industry in South London, the pattern of negative reviews clusters around:
+
+1. **Time mismatch:** Advertised "20 minutes" turns into 90 minutes with no update
+2. **Price escalation on arrival:** Quote doubles once the locksmith is at the door
+3. **Unnecessary drilling:** Standard locks drilled when non-destructive entry was possible
+4. **No invoice provided:** Customer has no written record of what was done or charged
+
+TrustLock's process addresses each of these directly. Response times are given as realistic ranges. Prices are fixed quotes not estimates. Non-destructive entry is always attempted first. Every job receives a written invoice.
+
+## What to Look For When Choosing an Emergency Locksmith in Dulwich
+
+**Google rating with volume:** A 4.9 from 12 reviews and a 4.7 from 180 reviews — the second is more meaningful. Volume matters.
+
+**Checkatrade or TrustATrader verification:** These schemes independently verify the locksmith's identity, qualifications, and that reviews are from genuine customers.
+
+**Local base, not call centre dispatch:** Many national 0800 numbers dispatch from a central call centre to whoever is closest, often with no vetting. A locally based locksmith with a trackable address — like TrustLock at 46 Grove Vale, SE22 — is accountable in a way that a dispatched contractor is not.
+
+**Fixed price on the phone, not on arrival:** Any locksmith who cannot give you a firm price on the phone (subject only to genuinely unforeseen complications) is a warning sign.
+
+## Booking an Emergency Locksmith in Dulwich
+
+TrustLock covers East Dulwich (SE22), Dulwich (SE21), Herne Hill (SE24), Peckham (SE15), Camberwell (SE5), Brixton (SW2), and Southwark (SE1), 24 hours a day, 7 days a week.
+
+Call **07984 547185** for an honest response time, a fixed quote, and a locksmith who will ask to see your ID before starting — because that is what a trustworthy locksmith does.
+    `,
+  },
+  {
+    slug: "lock-repair-near-me-dulwich",
+    title: "Lock Repair Near Me — Dulwich, East Dulwich & South London Guide",
+    metaTitle: "Lock Repair Near Me Dulwich — SE22, SE21, SE24 Local Lock Repair | TrustLock",
+    metaDescription:
+      "Need lock repair near you in Dulwich or East Dulwich? TrustLock covers SE22, SE21, SE24, SE15, and SE5. Same-day lock repair from £55. UPVC, wooden door, deadbolt and sash window lock repairs.",
+    excerpt:
+      "Searching for lock repair near you in Dulwich or South London? This guide covers what local lock repair involves, what it costs, what can be repaired versus replaced, and how quickly TrustLock can reach you across SE22, SE21, SE24, and SE15.",
+    category: "Lock Repair",
+    tags: ["lock repair", "near me", "Dulwich", "SE22", "SE21", "East Dulwich", "same day"],
+    author: "TrustLock Team",
+    publishedAt: "2025-05-16",
+    updatedAt: "2025-05-16",
+    readingTime: 5,
+    featured: false,
+    image: "/images/blog/lock-repair-near-me-dulwich.jpg",
+    content: `## Lock Repair Near Me in Dulwich — TrustLock Same-Day Service
+
+If you are searching for lock repair near you in Dulwich (SE21), East Dulwich (SE22), Herne Hill (SE24), Peckham (SE15), or Camberwell (SE5), TrustLock is based at 46 Grove Vale, SE22 8DY — directly in the middle of our service area.
+
+This guide covers what lock repair involves, what it costs, what can genuinely be repaired versus what requires replacement, and realistic response times for South London postcodes.
+
+## How Quickly Can a Lock Be Repaired Near Dulwich?
+
+TrustLock operates 24 hours a day, 7 days a week. For non-emergency lock repair (a stiff lock, a faulty mechanism, a handle that needs adjusting), same-day appointments are available on most days.
+
+**Typical response times from SE22 8DY:**
+
+| Postcode Area | Typical Arrival (Non-Emergency) |
+|---|---|
+| East Dulwich SE22 | Within 2 hours same day |
+| Dulwich SE21 | Within 2–3 hours same day |
+| Herne Hill SE24 | Within 2–3 hours same day |
+| Peckham SE15 | Within 2–3 hours same day |
+| Camberwell SE5 | Within 2–3 hours same day |
+| Brixton SW2 | Within 3–4 hours same day |
+
+For urgent lock repair — a lock that will not close, a broken mechanism after a break-in, or a damaged cylinder — we treat these as emergency callouts with the same 15–45 minute response times.
+
+## What Does Lock Repair Cost Near Dulwich?
+
+| Repair Type | Price |
+|---|---|
+| Stiff or seized cylinder (lubricate and adjust) | from £55 |
+| Misaligned door and lock (adjust keeps and hinges) | from £65 |
+| Broken key extraction | from £65 |
+| UPVC multipoint mechanism repair | from £85 |
+| Deadbolt mechanism repair | from £75 |
+| Sash window lock repair | from £55 |
+| Euro cylinder replacement (standard) | from £75 |
+| Euro cylinder replacement (anti-snap) | from £95 |
+
+Prices are fixed quotes confirmed before work begins. No hidden charges on arrival.
+
+## What Can Be Repaired vs. What Needs Replacing?
+
+### Repairable (Usually)
+
+**Stiff or difficult-to-turn cylinder:** This is usually a lubrication issue or a minor misalignment. In most cases, the cylinder can be cleaned, lubricated, and adjusted. Full replacement is not necessary.
+
+**Sticking UPVC door that won't close properly:** The most common cause is door sagging due to hinge wear or a dropped door. Adjusting the hinges and the multipoint keeps typically resolves this without touching the lock mechanism.
+
+**Broken key in lock:** Key extraction is a separate service. In most cases, the lock itself is undamaged and does not need replacing after extraction.
+
+**Loose door handle:** If the handle spindle has worn or the fixings have worked loose, the handle and spindle can be replaced without replacing the full mechanism.
+
+### Usually Requires Replacement
+
+**Snapped cylinder:** Once a euro cylinder has been snapped (the standard burglary entry method in South London), the cylinder must be replaced. The mechanism is destroyed when snapped.
+
+**Seized UPVC multipoint mechanism:** Internal components in UPVC gearboxes can seize completely after years of use. In most cases, full gearbox replacement is more reliable than attempted repair.
+
+**Lock damaged in a break-in attempt:** Forced-entry damage to a cylinder or mechanism usually compromises the integrity. We replace rather than repair in these cases.
+
+**Corroded deadbolt mechanism (older wooden doors):** Significant corrosion in older Dulwich Victorian properties can make component-level repair impractical.
+
+## Most Common Lock Repair Jobs in East Dulwich and Dulwich
+
+Based on callouts across SE22 and SE21:
+
+1. **UPVC door sticking** — the single most common repair request. Usually caused by door sag rather than lock failure
+2. **Stiff or worn yale nightlatch** — common in SE21 and SE22 Victorian terraces with original or old-spec latches
+3. **Key broken in lock** — most frequently front door euro cylinders
+4. **Broken or wobbly door handle** — especially on UPVC doors where the spindle has worn
+5. **Jammed sash window lock** — older Victorian sash fittings that have seized or corroded
+
+## What We Bring to Every Lock Repair
+
+TrustLock vans carry a full range of cylinder sizes (35mm through to 80mm, with variable backsets), replacement UPVC gearboxes for common door brands (Mila, Yale, ERA, Avocet, Fullex), anti-snap cylinders (Ultion, Mul-T-Lock, Yale Superior), and handle and spindle stock for most door types found in SE22 and SE21.
+
+In the majority of cases, we carry the parts to resolve the repair on the same visit. If a specialist part is required, we source it for a follow-up appointment within 24 hours.
+
+## How to Describe Your Lock Problem When You Call
+
+The more clearly you can describe the fault, the more accurately we can quote and confirm we have the right parts before travelling.
+
+Helpful information:
+- Door type (UPVC, composite, wooden)
+- Where the lock is failing (won't turn, won't engage, handle loose, door won't close)
+- How long the problem has been developing
+- Whether the problem started suddenly (possible break-in attempt) or gradually worsened
+
+To book a same-day lock repair near Dulwich or East Dulwich, call **07984 547185** or [request a quote online](/contact). We cover all SE22, SE21, SE24, SE15, SE5, SW2, and SE1 postcodes.
+    `,
+  },
 ];
 
 export function getBlogBySlug(slug: string): BlogPost | undefined {

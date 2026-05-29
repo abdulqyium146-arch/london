@@ -1,6 +1,3 @@
-"use client";
-
-import { motion } from "framer-motion";
 import {
   ShieldCheck,
   Clock,
@@ -49,15 +46,6 @@ const reasons = [
   },
 ];
 
-const stagger = {
-  visible: { transition: { staggerChildren: 0.08 } },
-};
-
-const itemVariant = {
-  hidden: { opacity: 0, y: 16 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: [0.22, 1, 0.36, 1] } },
-};
-
 export function WhyChooseUs() {
   return (
     <section
@@ -82,19 +70,12 @@ export function WhyChooseUs() {
           </p>
         </div>
 
-        <motion.div
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
-          variants={stagger}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.1 }}
-        >
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {reasons.map((reason) => {
             const Icon = reason.icon;
             return (
-              <motion.div
+              <div
                 key={reason.title}
-                variants={itemVariant}
                 className="group p-6 rounded-2xl border border-slate-100 hover:border-gold-200 hover:shadow-elegant bg-white transition-all duration-300"
               >
                 <div className="w-12 h-12 rounded-xl bg-gold-50 flex items-center justify-center mb-5 group-hover:bg-gold-100 transition-colors">
@@ -102,10 +83,10 @@ export function WhyChooseUs() {
                 </div>
                 <h3 className="text-lg font-bold text-navy-900 mb-2">{reason.title}</h3>
                 <p className="text-slate-500 text-sm leading-relaxed">{reason.description}</p>
-              </motion.div>
+              </div>
             );
           })}
-        </motion.div>
+        </div>
       </div>
     </section>
   );

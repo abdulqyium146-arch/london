@@ -1,6 +1,3 @@
-"use client";
-
-import { motion } from "framer-motion";
 import { Phone, MapPin, Unlock, CheckCircle2 } from "lucide-react";
 
 const steps = [
@@ -58,7 +55,7 @@ export function ProcessTimeline() {
             <br />
             <span className="text-gold-400">in 4 Simple Steps</span>
           </h2>
-          <p className="text-white/60 text-lg leading-relaxed">
+          <p className="text-white/70 text-lg leading-relaxed">
             We&apos;ve handled thousands of jobs across South London. Here&apos;s exactly what
             happens when you call TrustLock.
           </p>
@@ -72,16 +69,12 @@ export function ProcessTimeline() {
             aria-hidden="true"
           />
 
-          {steps.map((step, i) => {
+          {steps.map((step) => {
             const Icon = step.icon;
             return (
-              <motion.div
+              <div
                 key={step.number}
                 className="flex flex-col items-center text-center px-6"
-                initial={{ opacity: 0, y: 24 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: i * 0.1, ease: [0.22, 1, 0.36, 1] }}
               >
                 <div className="relative mb-6 w-[104px] h-[104px]">
                   <div className="absolute inset-0 rounded-full bg-gold-500/10 border border-gold-500/20" />
@@ -94,9 +87,9 @@ export function ProcessTimeline() {
                   </div>
                 </div>
                 <h3 className="text-xl font-bold text-white mb-3">{step.title}</h3>
-                <p className="text-white/60 text-sm leading-relaxed mb-3">{step.description}</p>
-                <p className="text-gold-400/70 text-xs italic">{step.detail}</p>
-              </motion.div>
+                <p className="text-white/70 text-sm leading-relaxed mb-3">{step.description}</p>
+                <p className="text-gold-300 text-xs italic">{step.detail}</p>
+              </div>
             );
           })}
         </div>
@@ -106,14 +99,7 @@ export function ProcessTimeline() {
           {steps.map((step, i) => {
             const Icon = step.icon;
             return (
-              <motion.div
-                key={step.number}
-                className="flex gap-4"
-                initial={{ opacity: 0, x: -16 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: i * 0.1 }}
-              >
+              <div key={step.number} className="flex gap-4">
                 <div className="flex flex-col items-center">
                   <div className="w-12 h-12 rounded-full bg-gold-500/20 border border-gold-500/30 flex items-center justify-center shrink-0 relative">
                     <Icon size={20} className="text-gold-400" aria-hidden="true" />
@@ -127,10 +113,10 @@ export function ProcessTimeline() {
                 </div>
                 <div className="pb-6">
                   <h3 className="text-lg font-bold text-white mb-1.5">{step.title}</h3>
-                  <p className="text-white/60 text-sm leading-relaxed mb-1">{step.description}</p>
-                  <p className="text-gold-400/70 text-xs italic">{step.detail}</p>
+                  <p className="text-white/70 text-sm leading-relaxed mb-1">{step.description}</p>
+                  <p className="text-gold-300 text-xs italic">{step.detail}</p>
                 </div>
-              </motion.div>
+              </div>
             );
           })}
         </div>

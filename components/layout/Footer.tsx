@@ -87,7 +87,7 @@ export function Footer() {
 
         {/* Services */}
         <div>
-          <h3 className="text-sm font-bold uppercase tracking-widest text-white/50 mb-5">
+          <h3 className="text-sm font-bold uppercase tracking-widest text-white/70 mb-5">
             Our Services
           </h3>
           <ul className="space-y-2.5" role="list">
@@ -163,7 +163,7 @@ export function Footer() {
                   aria-hidden="true"
                 />
                 <div>
-                  <p className="text-xs text-white/40 font-medium">Phone</p>
+                  <p className="text-xs text-white/60 font-medium">Phone</p>
                   <p className="text-sm font-bold text-white group-hover:text-gold-400 transition-colors">
                     {BUSINESS.phone}
                   </p>
@@ -182,7 +182,7 @@ export function Footer() {
                   aria-hidden="true"
                 />
                 <div>
-                  <p className="text-xs text-white/40 font-medium">Email</p>
+                  <p className="text-xs text-white/60 font-medium">Email</p>
                   <p className="text-sm text-white/80 group-hover:text-white transition-colors break-all">
                     {BUSINESS.email}
                   </p>
@@ -192,7 +192,7 @@ export function Footer() {
             <li className="flex items-start gap-3">
               <MapPin size={16} className="text-gold-400 mt-0.5 shrink-0" aria-hidden="true" />
               <div>
-                <p className="text-xs text-white/40 font-medium">Address</p>
+                <p className="text-xs text-white/60 font-medium">Address</p>
                 <address className="text-sm text-white/80 not-italic leading-relaxed">
                   {BUSINESS.address.street},<br />
                   {BUSINESS.address.city},{" "}
@@ -203,7 +203,7 @@ export function Footer() {
             <li className="flex items-start gap-3">
               <Clock size={16} className="text-gold-400 mt-0.5 shrink-0" aria-hidden="true" />
               <div>
-                <p className="text-xs text-white/40 font-medium">Opening Hours</p>
+                <p className="text-xs text-white/60 font-medium">Opening Hours</p>
                 <p className="text-sm text-white/80">{BUSINESS.hours.days}</p>
                 <p className="text-sm font-semibold text-gold-400">{BUSINESS.hours.formatted}</p>
               </div>
@@ -237,7 +237,7 @@ export function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-white/10">
         <div className="container py-6 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-xs text-white/40 text-center sm:text-left">
+          <p className="text-xs text-white/60 text-center sm:text-left">
             © {new Date().getFullYear()} {BUSINESS.name}. All rights reserved.{" "}
             {BUSINESS.address.full}.
           </p>
@@ -252,7 +252,7 @@ export function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-xs text-white/40 hover:text-white/70 transition-colors"
+                    className="text-xs text-white/60 hover:text-white/90 transition-colors"
                   >
                     {link.label}
                   </Link>
@@ -262,13 +262,13 @@ export function Footer() {
           </nav>
         </div>
         <div className="container pb-5 flex justify-center">
-          <p className="text-xs text-white/30">
+          <p className="text-xs text-white/50">
             Powered by{" "}
             <a
               href="https://smallbusinessmarketingprofessional.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white/50 hover:text-gold-400 transition-colors font-medium"
+              className="text-white/70 hover:text-gold-400 transition-colors font-medium"
             >
               Small Business Marketing Professional
             </a>
