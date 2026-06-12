@@ -61,14 +61,94 @@ const faqServiceLinks: Record<string, { label: string; href: string }[]> = {
     { label: "Lock installation — period properties", href: "/services/lock-installation" },
   ],
   "faq-30": [{ label: "Lock installation service", href: "/services/lock-installation" }],
+  // Pricing extended
+  "faq-31": [
+    { label: "Emergency locksmith pricing", href: "/services/emergency-locksmith" },
+    { label: "Full price guide", href: "/prices" },
+  ],
+  "faq-32": [
+    { label: "Lock installation — cylinder upgrades", href: "/services/lock-installation" },
+    { label: "Residential locksmith service", href: "/services/residential-locksmith" },
+  ],
+  "faq-33": [
+    { label: "Lock installation service", href: "/services/lock-installation" },
+    { label: "Full price guide", href: "/prices" },
+  ],
+  "faq-34": [{ label: "About TrustLock — honest pricing", href: "/about" }],
+  "faq-35": [
+    { label: "Lock installation service", href: "/services/lock-installation" },
+    { label: "Full price guide", href: "/prices" },
+  ],
+  "faq-36": [
+    { label: "Emergency locksmith from £65", href: "/services/emergency-locksmith" },
+    { label: "Full price guide", href: "/prices" },
+  ],
+  "faq-37": [
+    { label: "Lock installation — front door cylinders", href: "/services/lock-installation" },
+    { label: "Full price guide", href: "/prices" },
+  ],
+  "faq-38": [
+    { label: "Lock installation service", href: "/services/lock-installation" },
+    { label: "Full price guide", href: "/prices" },
+  ],
+  // General extended
+  "faq-39": [
+    { label: "Emergency locksmith service", href: "/services/emergency-locksmith" },
+    { label: "Residential locksmith service", href: "/services/residential-locksmith" },
+  ],
+  "faq-40": [{ label: "Contact TrustLock", href: "/contact" }],
+  "faq-41": [
+    { label: "All services", href: "/services" },
+    { label: "Areas we cover", href: "/areas" },
+  ],
+  // Security extended
+  "faq-42": [
+    { label: "Lock installation — anti-snap cylinders", href: "/services/lock-installation" },
+    { label: "Residential locksmith service", href: "/services/residential-locksmith" },
+  ],
+  "faq-43": [
+    { label: "Lock installation — security-rated locks", href: "/services/lock-installation" },
+    { label: "Residential locksmith service", href: "/services/residential-locksmith" },
+  ],
+  "faq-44": [{ label: "Lock repair and inspection", href: "/services/lock-repair" }],
+  // Automotive extended
+  "faq-45": [{ label: "Automotive locksmith service", href: "/services/automotive-locksmith" }],
+  // Lock Knowledge
+  "faq-46": [
+    { label: "Lock installation — anti-bump cylinders", href: "/services/lock-installation" },
+    { label: "Residential locksmith service", href: "/services/residential-locksmith" },
+  ],
+  "faq-47": [{ label: "Lock installation — restricted key cylinders", href: "/services/lock-installation" }],
+  "faq-48": [{ label: "Lock installation — restricted key systems", href: "/services/lock-installation" }],
+  "faq-50": [{ label: "Lock installation — high-security cylinders", href: "/services/lock-installation" }],
+  "faq-51": [
+    { label: "Emergency locksmith service", href: "/services/emergency-locksmith" },
+    { label: "Lock repair service", href: "/services/lock-repair" },
+  ],
+  "faq-53": [
+    { label: "Lock installation — deadbolts and deadlocks", href: "/services/lock-installation" },
+    { label: "Residential locksmith service", href: "/services/residential-locksmith" },
+  ],
+  "faq-54": [
+    { label: "All services", href: "/services" },
+    { label: "Emergency locksmith service", href: "/services/emergency-locksmith" },
+  ],
 };
 
 export const metadata: Metadata = genMeta({
-  title: "FAQ | 30 Locksmith Questions Answered Honestly – TrustLock Dulwich",
+  title: "FAQ | 54 Locksmith Questions Answered Honestly – TrustLock Dulwich",
   description:
-    "30 locksmith questions answered directly — pricing from £65, response times by postcode, anti-snap cylinders, BS3621 locks, UPVC repairs, automotive, commercial and smart locks. TrustLock SE22.",
+    "54 locksmith questions answered directly — London pricing from £65, rekey vs replace, key bumping, police-recommended locks, anti-snap cylinders, UPVC repairs, automotive, smart locks. TrustLock SE22.",
   path: "/faq",
-  keywords: ["locksmith FAQ", "locksmith questions", "how much does a locksmith cost", "emergency locksmith"],
+  keywords: [
+    "locksmith FAQ",
+    "how much do locksmiths charge in London",
+    "how much to change a door lock UK",
+    "is it cheaper to rekey or replace locks",
+    "what door locks do police recommend",
+    "what is key bumping",
+    "locksmith questions Dulwich",
+  ],
 });
 
 export default function FAQPage() {

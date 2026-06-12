@@ -225,6 +225,179 @@ export const faqs: FAQ[] = [
     answer:
       "There is no fixed replacement schedule, but you should replace locks: when moving into any new property (always), after a break-in or attempted break-in, if keys are lost or you are uncertain who has copies, if the lock has become stiff or unreliable, and when an upgrade to current security standards is warranted (for example, replacing a standard cylinder with a TS007 3-star anti-snap version). Most quality locks last 10–15 years mechanically — but security standards improve, and a 10-year-old cylinder may no longer represent the best available protection.",
   },
+  // Pricing (extended)
+  {
+    id: "faq-31",
+    category: "Pricing",
+    question: "How much do locksmiths charge in London?",
+    answer:
+      "Typical London locksmith prices in 2025: emergency door opening from £65–£120 during the day, £100–£180 at night with many firms — though TrustLock charges the same rate 24/7 with no out-of-hours premium. Lock repair or replacement typically runs £85–£150, lock installation £90–£180. The wide range reflects whether a national call-centre is dispatching a sub-contractor (higher cost, no accountability) versus a locally based locksmith like TrustLock operating directly from SE22. Always ask for a fixed quote before the locksmith travels — reputable firms provide one.",
+  },
+  {
+    id: "faq-32",
+    category: "Pricing",
+    question: "Is it cheaper to rekey or replace locks?",
+    answer:
+      "Rekeying (changing the internal pin stack so existing keys no longer work) is cheaper — typically £25–£45 per cylinder when done alongside other work. It makes sense when the lock mechanism is in good condition and you simply need to invalidate old keys, such as when moving into a property or after a tenancy change. Replacing the entire cylinder is the right call when the existing lock is worn, does not meet current security standards (e.g. not TS007:2012 rated), or has been damaged. Anti-snap cylinder replacement at TrustLock starts from £55 — the security upgrade often justifies the modest additional cost over rekeying alone.",
+  },
+  {
+    id: "faq-33",
+    category: "Pricing",
+    question: "How much is it to change a door lock in the UK?",
+    answer:
+      "A standard euro cylinder change (supply and fit) in the UK costs £55–£95 depending on the cylinder specification. A basic replacement cylinder costs from £55. An anti-snap TS007:2012-rated cylinder (Ultion, Yale Superior, ABS) costs from £75 fitted. A BS3621 five-lever mortice deadlock on a timber door costs from £85 fitted. UPVC multipoint gearbox replacement costs from £95. These are supply-and-fit prices — parts and labour included. At TrustLock, all prices are fixed quotes confirmed before work begins.",
+  },
+  {
+    id: "faq-34",
+    category: "Pricing",
+    question: "Why are locksmiths so expensive?",
+    answer:
+      "Several factors drive locksmith costs: (1) specialist tools — quality picking sets, decoders and diagnostic equipment cost thousands of pounds; (2) 24/7 availability — maintaining round-the-clock cover is expensive to operate; (3) training and insurance — DBS checks, £2m public liability insurance, and ongoing skills training all add to overheads; (4) a fully stocked van carrying cylinders, gearboxes, and hardware for dozens of door types. The cost of a professional locksmith is almost always less than the damage caused by attempting forced entry yourself, and far less than the loss from a security breach. That said, there is significant price variation — national call centres tend to be more expensive and less accountable than locally based firms.",
+  },
+  {
+    id: "faq-35",
+    category: "Pricing",
+    question: "How much is a full lock change for a house?",
+    answer:
+      "A full lock change for a typical three-bedroom house in South London — front door, back door, and any additional external doors — typically costs £180–£350 fitted depending on the cylinder specification chosen. This assumes euro cylinder doors; timber doors with five-lever mortice locks cost more per door (from £85 each). Anti-snap cylinder upgrades across all external doors of a standard semi-detached property in Dulwich or East Dulwich run approximately £200–£280 supply and fit. TrustLock provides a fixed whole-property quote with no per-door call-out charges.",
+  },
+  {
+    id: "faq-36",
+    category: "Pricing",
+    question: "How much does a locksmith charge per hour?",
+    answer:
+      "Most reputable UK locksmiths — including TrustLock — charge per job rather than per hour. This gives you a predictable, fixed cost rather than an open-ended meter. A job-rate model benefits you because efficient locksmiths who complete work quickly are not penalised for their skill. If you encounter a locksmith who quotes strictly by the hour without a job-rate maximum, ask for a capped estimate before they start. Hourly rates where quoted range from £60–£100/hr in South London, but a job-rate fixed quote is always preferable.",
+  },
+  {
+    id: "faq-37",
+    category: "Pricing",
+    question: "What's the average price to change a front door lock?",
+    answer:
+      "Changing a front door euro cylinder (supply and fit) averages £65–£95 in South London. For an anti-snap TS007:2012 cylinder — which we strongly recommend for any external door — the cost is from £75 fitted. If your front door has a separate five-lever mortice deadlock (common on older Dulwich timber doors), budgeting £85–£120 fitted is realistic. The price includes labour, the cylinder itself, and a new pair of keys. At TrustLock, this price is fixed on the phone — not revised upward on arrival.",
+  },
+  {
+    id: "faq-38",
+    category: "Pricing",
+    question: "What is the average price to replace a lock cylinder?",
+    answer:
+      "In South London, a standard euro cylinder replacement costs from £55 fitted. An anti-snap TS007:2012 cylinder replacement costs from £75 fitted. High-security cylinders with restricted key profiles (Mul-T-Lock MT5+, Ultion) cost from £95 fitted. For UPVC doors requiring a specific cylinder size with secure scoring, measure the cylinder (screw hole to each end) before calling — common sizes are 35/35mm, 35/45mm, and 45/55mm. TrustLock carries the full range of standard sizes on the van.",
+  },
+  // General (extended)
+  {
+    id: "faq-39",
+    category: "General",
+    question: "Are locksmiths worth it?",
+    answer:
+      "Yes, for most scenarios. Attempting to force entry yourself typically causes £200–£500 of door or frame damage that a locksmith would have avoided by opening non-destructively in 20 minutes. For security upgrades, a professional ensures the lock is fitted correctly — an anti-snap cylinder installed at the wrong protrusion length (more than 3mm exposed) negates most of the security benefit. For automotive work, incorrect DIY transponder programming can lock out the ECU entirely, costing far more to rectify. The exception is very simple jobs — a loose door handle screw, for example — where a competent DIYer can self-resolve.",
+  },
+  {
+    id: "faq-40",
+    category: "General",
+    question: "How do you pay for a locksmith?",
+    answer:
+      "TrustLock accepts payment by bank transfer, credit or debit card, and cash. Payment is taken on completion once you have seen the finished work and reviewed the invoice. We do not require upfront payment before attending. For larger commercial jobs or planned installations, we can invoice with standard 7-day payment terms. Every job receives a VAT invoice suitable for insurance claims and landlord records.",
+  },
+  {
+    id: "faq-41",
+    category: "General",
+    question: "What locksmith services does TrustLock offer in South London?",
+    answer:
+      "TrustLock offers: emergency lockout response (24/7, from £65), residential lock installation and upgrade, UPVC door lock and gearbox repair, burglary repair and emergency boarding, automotive locksmith services (car lockout, key cutting, transponder programming), commercial locksmith services (master key systems, access control, restricted cylinders), smart lock installation and configuration, and window lock installation. All services are available across SE22, SE21, SE24, SE15, SE5, SW2 and SE1.",
+  },
+  // Security (extended)
+  {
+    id: "faq-42",
+    category: "Security",
+    question: "What door locks do police recommend in the UK?",
+    answer:
+      "The Metropolitan Police and UK police forces recommend locks approved under the Secured by Design (SBD) scheme — the official police accreditation for security products. SBD-approved locks must meet or exceed BS3621 (five-lever mortice deadlocks) or TS007:2012 three-star rating (anti-snap euro cylinders). The Police-preferred specification for front doors is: a TS007:2012 3-star anti-snap cylinder, a BS3621 mortice deadlock, a security strike plate with 100mm screws, and hinge bolts on the hinge side. Brands meeting these standards include Ultion, Mul-T-Lock MT5+, Yale Superior, and ABS Masters.",
+  },
+  {
+    id: "faq-43",
+    category: "Security",
+    question: "Which lock brands are best for UK homes?",
+    answer:
+      "For anti-snap euro cylinders, the independently tested leaders are: Ultion (Brisant Secure) — Which? Best Buy and Sold Secure Diamond; Mul-T-Lock MT5+ — Sold Secure Diamond, excellent pick and drill resistance; Yale Superior — TS007 3-star, widely available and insurance-approved; ABS Masters — strong pick resistance, good value. For five-lever mortice deadlocks: Chubb 3G114, ERA Fortress, and Yale BS3621 are all solid choices. Avoid unbranded or very cheap cylinders sold online — they often claim ratings they do not hold.",
+  },
+  {
+    id: "faq-44",
+    category: "Security",
+    question: "What are the signs of a bad or failing lock?",
+    answer:
+      "Key indicators that a lock needs attention: (1) the key requires significant force to turn — pin stack wear or internal corrosion; (2) the key is difficult to insert or remove — worn keyway or deformed pins; (3) the cylinder rotates slightly before the key engages the cam — anti-rotation collar failure, common after attempted snapping; (4) fresh scratches around the keyway or cylinder face — possible picking or bump key attempt; (5) the cylinder is visibly loose in the door — collar damaged, potentially from a snapping attempt; (6) the bolt does not fully extend or retract — cam wear or alignment issue. Any of these warrant inspection before relying on the lock for security.",
+  },
+  // Automotive (extended)
+  {
+    id: "faq-45",
+    category: "Automotive",
+    question: "Is it cheaper to use a locksmith or a car dealer for key replacement?",
+    answer:
+      "In most cases, a locksmith is significantly cheaper and faster. Main dealers charge £200–£600+ for a replacement transponder key including programming, and typically require the vehicle to be booked in and left for a day. A mobile automotive locksmith can attend your location, cut and program a replacement key on-site, and complete the job in 30–90 minutes for £150–£400 depending on the vehicle. The exception is certain luxury or specialist vehicles where manufacturer-level dealer tools are the only option for programming — a good locksmith will tell you honestly if this is the case rather than attempting the job.",
+  },
+  // Lock Knowledge (new category)
+  {
+    id: "faq-46",
+    category: "Lock Knowledge",
+    question: "What is key bumping?",
+    answer:
+      "Key bumping is an attack technique that exploits the pin tumbler mechanism used in most standard cylinder locks. A bump key (cut to the maximum depth on every cut) is inserted into the target lock and struck sharply while applying rotational tension. The impact momentarily separates the driver and key pins, allowing the cylinder to rotate. It takes seconds with practice and leaves minimal visible evidence. The defence is a cylinder with anti-bump features — quality anti-snap cylinders such as Ultion, Mul-T-Lock MT5+ and Yale Superior also incorporate anti-bump design. Standard cylinders offer no resistance to bumping.",
+  },
+  {
+    id: "faq-47",
+    category: "Lock Knowledge",
+    question: "What types of keys cannot be cut at a standard key cutter?",
+    answer:
+      "Several key types require specialist equipment or authorisation to duplicate: (1) restricted profile keys (Mul-T-Lock MT5+, Ultion, Medeco) — the key profile is patented and blanks are only available to authorised distributors; duplication requires proof of ownership; (2) transponder car keys — the chip must be programmed to the vehicle's ECU, requiring diagnostic equipment; (3) Abloy disc-detainer keys — require specialist machinery not available at high-street key bars; (4) keys marked 'Do Not Duplicate' — while not legally enforceable in the UK, responsible key cutters will decline. For restricted key systems, this controlled duplication is a core security feature.",
+  },
+  {
+    id: "faq-48",
+    category: "Lock Knowledge",
+    question: "What keys are not allowed to be copied in the UK?",
+    answer:
+      "In the UK, there is no law preventing the copying of most keys — including keys marked 'Do Not Copy' or 'Do Not Duplicate'. However, keys for restricted profile cylinders (Ultion, Mul-T-Lock MT5+, ABS Masters) are protected by patent: the blanks are not commercially available, so duplication without the manufacturer's authorisation card is practically impossible rather than legally prohibited. Keys to certain public infrastructure (Royal Mail, utility companies, London Underground) are protected under specific legislation. For home security, the practical protection comes from fitting a restricted-key cylinder, not from relying on a 'Do Not Copy' stamp.",
+  },
+  {
+    id: "faq-49",
+    category: "Lock Knowledge",
+    question: "Are skeleton keys illegal to own in the UK?",
+    answer:
+      "Possessing skeleton keys or lock picks is not automatically illegal in England and Wales. The relevant offence under the Theft Act 1968 (Section 25) is 'going equipped' — carrying implements with intent to commit burglary. Mere possession without criminal intent is not an offence. However, if you are found with lock picks near a property you have no legitimate reason to be at, this can evidence intent. Professional locksmiths carry picks lawfully as tools of their trade. For the public, there is no general prohibition on owning them — but carrying them in circumstances suggesting criminal intent creates legal exposure.",
+  },
+  {
+    id: "faq-50",
+    category: "Lock Knowledge",
+    question: "What is the most pick-resistant lock available?",
+    answer:
+      "The Abloy Protec2 (disc-detainer mechanism) has never been successfully picked in a competitive setting and is widely regarded as the most pick-resistant cylinder available. The Medeco Biaxial and Mul-T-Lock MT5+ are also exceptionally resistant to picking and are Sold Secure Diamond rated. For UK residential use, the Ultion and Mul-T-Lock MT5+ offer the strongest practical combination of pick resistance, drill resistance, and anti-snap protection within a euro cylinder format compatible with standard UPVC and composite doors.",
+  },
+  {
+    id: "faq-51",
+    category: "Lock Knowledge",
+    question: "What locks can locksmiths not open?",
+    answer:
+      "A skilled locksmith can open the vast majority of residential and commercial locks non-destructively, including most high-security cylinders given sufficient time. In practice, some locks are highly resistant to non-destructive entry: Abloy Protec2 (disc-detainer), high-security Medeco cylinders, and correctly fitted Mul-T-Lock MT5+ cylinders with hardened steel bars. For these, destructive entry (drilling) is sometimes the only option — though this remains rare in residential lockouts. High-security safes with certain attack-resistant mechanisms (relockers, glass re-lockers) are beyond standard locksmith capabilities and require specialist safe technicians.",
+  },
+  {
+    id: "faq-52",
+    category: "Lock Knowledge",
+    question: "What is a monkey tail bolt?",
+    answer:
+      "A monkey tail bolt (sometimes called a monkey tail espagnolette bolt) is a surface-mounted door bolt with a distinctive curved or scrolled handle at the top, traditionally used on cottage-style or stable-type doors — particularly bottom half-doors. The handle loops down to allow operation with a single finger or knuckle. They are common on wooden stable doors, bi-fold doors, and some period properties in South London conservation areas. For security, they should be used in addition to a key-operated lock rather than as a standalone security measure.",
+  },
+  {
+    id: "faq-53",
+    category: "Lock Knowledge",
+    question: "Why do people put a rubber band on a door handle?",
+    answer:
+      "The rubber band trick loops a band around both inside and outside handles, running across the latch tongue. This keeps the latch bolt retracted so the door can be pushed open without turning the handle — useful when carrying items with both hands. From a security perspective, it is only relevant to spring latches (yale-type nightlatches) — deadbolts, multipoint locks, and mortice locks are completely unaffected. If your door relies solely on a latch (no deadbolt), someone outside could potentially use this method to prevent the latch re-engaging. Fitting a deadbolt or five-lever mortice lock removes any latch-based vulnerability entirely.",
+  },
+  {
+    id: "faq-54",
+    category: "Lock Knowledge",
+    question: "What services does a professional locksmith provide beyond lockouts?",
+    answer:
+      "Beyond emergency lockouts, a professional locksmith provides: lock installation and security upgrades (anti-snap cylinders, BS3621 deadlocks, window locks); UPVC and composite door mechanism repair and gearbox replacement; burglary repair, door frame reinforcement, and emergency boarding; automotive services including car lockout, key cutting, and transponder programming; commercial services including master key systems, access control, and restricted cylinders; smart lock installation and configuration; security surveys and post-break-in assessments. TrustLock offers all of these services across South London, 24 hours a day.",
+  },
 ];
 
 export const faqCategories = [...new Set(faqs.map((f) => f.category))];
