@@ -133,12 +133,43 @@ const faqServiceLinks: Record<string, { label: string; href: string }[]> = {
     { label: "All services", href: "/services" },
     { label: "Emergency locksmith service", href: "/services/emergency-locksmith" },
   ],
+  // Pricing PAA additions
+  "faq-55": [
+    { label: "Emergency locksmith from £65", href: "/services/emergency-locksmith" },
+    { label: "Full price guide", href: "/prices" },
+  ],
+  "faq-56": [
+    { label: "Lock installation service", href: "/services/lock-installation" },
+    { label: "Full price guide", href: "/prices" },
+  ],
+  "faq-57": [
+    { label: "Full price guide — safe opening", href: "/prices" },
+    { label: "Emergency locksmith service", href: "/services/emergency-locksmith" },
+  ],
+  // General PAA additions
+  "faq-58": [
+    { label: "About TrustLock", href: "/about" },
+    { label: "Contact TrustLock", href: "/contact" },
+  ],
+  // Automotive PAA additions
+  "faq-59": [{ label: "Automotive locksmith service", href: "/services/automotive-locksmith" }],
+  // Lock Knowledge PAA additions
+  "faq-60": [{ label: "Lock installation — restricted key cylinders", href: "/services/lock-installation" }],
+  "faq-61": [
+    { label: "Lock installation — anti-cut cylinder guards", href: "/services/lock-installation" },
+    { label: "Burglary repair service", href: "/services/burglary-repair" },
+  ],
+  // Security PAA additions
+  "faq-62": [
+    { label: "Lock installation — full door security", href: "/services/lock-installation" },
+    { label: "Residential locksmith service", href: "/services/residential-locksmith" },
+  ],
 };
 
 export const metadata: Metadata = genMeta({
-  title: "FAQ | 54 Locksmith Questions Answered Honestly – TrustLock Dulwich",
+  title: "FAQ | 62 Locksmith Questions Answered Honestly – TrustLock Dulwich",
   description:
-    "54 locksmith questions answered directly — London pricing from £65, rekey vs replace, key bumping, police-recommended locks, anti-snap cylinders, UPVC repairs, automotive, smart locks. TrustLock SE22.",
+    "62 locksmith questions answered directly — London pricing from £65, free lock change schemes, safe opening costs, Timpson key cutting limits, hardest locks to cut, reliable locksmith guide. TrustLock SE22.",
   path: "/faq",
   keywords: [
     "locksmith FAQ",

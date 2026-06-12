@@ -398,6 +398,66 @@ export const faqs: FAQ[] = [
     answer:
       "Beyond emergency lockouts, a professional locksmith provides: lock installation and security upgrades (anti-snap cylinders, BS3621 deadlocks, window locks); UPVC and composite door mechanism repair and gearbox replacement; burglary repair, door frame reinforcement, and emergency boarding; automotive services including car lockout, key cutting, and transponder programming; commercial services including master key systems, access control, and restricted cylinders; smart lock installation and configuration; security surveys and post-break-in assessments. TrustLock offers all of these services across South London, 24 hours a day.",
   },
+  // Pricing (People Also Ask additions)
+  {
+    id: "faq-55",
+    category: "Pricing",
+    question: "Why are emergency locksmiths so expensive?",
+    answer:
+      "Emergency locksmith pricing reflects several unavoidable costs: maintaining 24/7 availability means a locksmith cannot batch jobs efficiently — every emergency call requires immediate travel regardless of time, traffic, or other bookings. A fully stocked van carrying cylinders, gearboxes, and equipment for dozens of door types is expensive to maintain. Training, insurance, and DBS checks are ongoing overheads. Nationally advertised 'emergency locksmiths' are often call centres dispatching sub-contractors with a significant mark-up built in. TrustLock charges a consistent rate at all hours — no night surcharge, no weekend premium — because we operate directly from SE22 without a call-centre layer. Emergency lockout pricing starts from £65.",
+  },
+  {
+    id: "faq-56",
+    category: "Pricing",
+    question: "Can I get my locks changed for free in the UK?",
+    answer:
+      "Yes — in specific circumstances. (1) Home insurance: if your keys are stolen or lost in a burglary, most home insurance policies cover lock replacement as part of a claim, subject to your excess. (2) Council schemes: some London boroughs operate free or subsidised lock change schemes for elderly or vulnerable residents — contact your local council housing team. (3) Domestic abuse support: organisations including Refuge and Women's Aid can arrange emergency lock changes for survivors leaving dangerous situations. (4) New tenancy: landlords are legally responsible for ensuring locks are functional — if a lock is broken on a rented property, the landlord must replace it at no cost to the tenant. Outside these circumstances, professional supply-and-fit starts from £55.",
+  },
+  {
+    id: "faq-57",
+    category: "Pricing",
+    question: "How much does it cost to open a safe?",
+    answer:
+      "Safe opening in South London typically costs £100–£400 depending on safe type, age, and whether non-destructive entry is possible. Standard relocking safes (forgotten combination, dead battery on electronic lock) can often be opened non-destructively for £100–£200. Fire safes and older mechanical combination safes require more time — typically £150–£250. High-security safes with anti-attack hardplates, glass re-lockers, or multiple bolt relockers may require specialist safe engineers and destructive entry, costing £300–£500+. TrustLock handles standard residential safe openings across SE22 and South London — for complex high-security safes, we advise on specialist referral.",
+  },
+  // General (People Also Ask additions)
+  {
+    id: "faq-58",
+    category: "General",
+    question: "How do you find a reliable locksmith?",
+    answer:
+      "The most reliable indicators: (1) Master Locksmiths Association (MLA) approved — the MLA vets members' identity, qualifications, and carries out undercover assessments; (2) Checkatrade or Which? Trusted Traders verified — these schemes independently confirm the tradesperson's identity and that reviews are from genuine customers; (3) local address — a locksmith with a verifiable physical address (not just a mobile number) is accountable; (4) fixed quote on the phone before travelling — any reputable locksmith can quote a firm price for standard jobs; (5) asks to see ID and proof of address before starting work — this is best practice, not an obstacle; (6) Google reviews with significant volume — 4.8+ from 50+ reviews carries weight. TrustLock is based at 46 Grove Vale SE22 8DY, Checkatrade verified, and gives fixed quotes before attendance.",
+  },
+  // Automotive (People Also Ask additions)
+  {
+    id: "faq-59",
+    category: "Automotive",
+    question: "Will a car fail its MOT if the central locking is not working?",
+    answer:
+      "Central locking failure alone is not an MOT failure point. The MOT test only covers safety-critical systems, and central locking is not one of them. However, related issues can cause MOT failure: a door that cannot be opened from the inside (a failed interior handle or jammed mechanism) is an MOT failure, as is a door that does not close and latch securely. If your central locking failure is accompanied by any door that won't open or close properly, those secondary issues would fail. For isolated central locking diagnosis and repair — remotes, actuators, or key fob programming — an automotive locksmith can resolve these without a main dealer visit.",
+  },
+  // Lock Knowledge (People Also Ask additions)
+  {
+    id: "faq-60",
+    category: "Lock Knowledge",
+    question: "What keys can Timpson cut?",
+    answer:
+      "Timpson and similar high-street key bars can cut standard Yale-profile keys, basic mortice keys (flat/corrugated profiles), and some standard car keys without transponder chips. They cannot cut: restricted profile keys (Ultion, Mul-T-Lock MT5+, ABS Masters) — the blanks are not available to high-street retailers; transponder car keys requiring ECU programming; Abloy disc-detainer keys; high-security keys with patents on blank supply. For anything beyond a straightforward duplicate of a standard key, a professional locksmith is required. If your key is marked with a brand name like Ultion, Mul-T-Lock, or Medeco, assume it cannot be high-street cut.",
+  },
+  {
+    id: "faq-61",
+    category: "Lock Knowledge",
+    question: "What is the hardest lock to cut through?",
+    answer:
+      "Resistance to cutting depends on the attack tool. For bolt cutters: the Abloy Protec padlock, Squire SS100CS, and Abus Granit Plus 37/80 use hardened boron steel shackles that defeat standard bolt cutters. For angle grinders: hardened steel anti-cut shrouds and close-shackle designs where the cutting disc cannot gain purchase. For door locks: a hardened anti-drill steel plate behind the cylinder face and a hardened steel lock guard (Mul-T-Lock or similar) over the cylinder body prevent rotary cutting tools from reaching the mechanism. Fitting a cylinder guard is the most practical anti-cut upgrade for a domestic door.",
+  },
+  {
+    id: "faq-62",
+    category: "Security",
+    question: "What kind of door lock is most secure?",
+    answer:
+      "For a front door in the UK, the most secure configuration is: a TS007:2012 3-star anti-snap euro cylinder (Ultion, Mul-T-Lock MT5+, or Yale Superior) combined with a BS3621:2007 five-lever mortice deadlock, a security-grade box strike plate fixed with 100mm screws into the structural masonry, and hinge bolts on the hinge side. No single lock provides complete security — it is the combination of cylinder attack resistance, kick-in resistance at the keep, and hinge reinforcement that matters. For UPVC doors where a mortice lock cannot be fitted, a high-security multipoint mechanism with a TS007 cylinder is the equivalent standard.",
+  },
 ];
 
 export const faqCategories = [...new Set(faqs.map((f) => f.category))];
