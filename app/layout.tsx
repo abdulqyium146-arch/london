@@ -76,6 +76,8 @@ export const metadata: Metadata = {
     images: [`${SITE_URL}/opengraph-image.png`],
   },
   other: {
+    // Google Search Console ownership verification
+    "google-site-verification": "Ln_4KxdTJVlxAfB33B0y2bFcj4Ks8o4aQi-lLOYtsQc",
     // Windows tile
     "msapplication-TileColor": "#0F172A",
     "msapplication-config": "/browserconfig.xml",
